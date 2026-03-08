@@ -8,7 +8,7 @@ projects:
     collection:
       - name: robocon
         emoji: ❄️
-        color: '#ea1e1eff'
+        color: '#4ddb88ff'
         desc: 机器人竞赛 2026，一个基于 ROS 的机器人竞赛，参赛机器人需要完成一个简单的任务，即从起点到终点。
         textColor: white
         github: https://github.com/wusi321/robocon
@@ -17,18 +17,21 @@ projects:
       - name: 半杯凉白开
         emoji: 🎮
         color: '#4682b4'
+        docs: 一个个人网站
         textColor: white
         github: https://github.com/wusi321/wusi321.github.io
         url: https://wusi321.github.io
-        docs: 一个个人网站
+        
       - name: SCuNF
         emoji: 🎮
         color: '#22bbff'
+        docs: 一个个人博客
         textColor: white
         github: https://github.com/SCuNF
         url: https://scunf.github.io/
-        docs: 一个个人博客
+        
 applets:
+ interesting:
     title: 应用
     emoji: 📱
     collection:
