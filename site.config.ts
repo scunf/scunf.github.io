@@ -91,7 +91,7 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
+    enable: true,
   },
 
   sponsor: {
