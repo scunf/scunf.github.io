@@ -36,6 +36,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
+        name: '我的项目',
+        url: '/project/',
+        icon: 'i-ri-gallery-view',
+        color: 'orange',
+      },
+      {
         name: '喜欢的女孩子',
         url: '/girls/',
         icon: 'i-ri-women-line',
