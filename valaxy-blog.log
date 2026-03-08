@@ -1,9 +1,1 @@
-2026-03-08 10:00:00 File: ALL Lines: N/A (Project Initialization)
-2026-03-08 10:05:00 File: .github/workflows/gh-pages.yml Lines: 15-16 (Add permissions: contents: write)
-2026-03-08 10:05:00 File: PROJECT Lines: N/A (Rename branch main to master)
-2026-03-08 10:15:00 File: site.config.ts Lines: Modified (User edit & Trigger deploy)
-2026-03-08 10:25:00 File: .github/workflows/gh-pages.yml Lines: 25-35 (Switch to pnpm & fix build)
-2026-03-08 10:25:00 File: public/.nojekyll Lines: New (Disable Jekyll processing)
-2026-03-08 10:35:00 File: .github/workflows/gh-pages.yml Lines: 23-45 (Upgrade actions: checkout@v4, pnpm@v3, setup-node@v4, gh-pages@v4)
-2026-03-08T18:40:36+08:00 - �����ļ�: d:\newWeb\web\valaxy-blog\site.config.ts - ��������: 7-10
-2026-03-08T18:49:59+08:00 - �����ļ�: d:\newWeb\web\valaxy-blog\site.config.ts - ��������: 7-10 - �޸�ͷ���ļ���ƴд
+2026-03-09  d:\newWeb\web\valaxy-blog\layouts\projects.vue  lines: 1-25
