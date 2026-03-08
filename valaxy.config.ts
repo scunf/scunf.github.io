@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: 'SCuNF的小站',
+      title: 'SCuNF',
     },
 
     pages: [
