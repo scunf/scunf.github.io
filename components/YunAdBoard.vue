@@ -5,7 +5,8 @@
 <template>
   <YunCard>
     <RouterLink to="/posts/how-to-use-adboard">
-      如何使用广告板？
+      微信:33224445
+      qq:112233445
     </RouterLink>
   </YunCard>
 </template>
