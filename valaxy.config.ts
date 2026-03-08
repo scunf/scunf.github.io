@@ -19,6 +19,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       title: 'SCuNF',
     },
+    nav: [
+    { text: 'menu.posts', link: '/posts/', icon: 'i-ri-article-line' },
+    { text: '项目列表', link: '/project', icon: 'i-ri-gallery-view' },
+    { text: '相册', link: '/albums', icon: 'i-ri-image-line' },
+    { text: '友情链接', link: '/links/', icon: 'i-ri-link' },
+    { text: '老婆列表', link: '/girls/', icon: 'i-ri-women-line' },
+    
+  ],
 
     pages: [
       {
