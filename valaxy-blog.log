@@ -4,3 +4,4 @@
 2026-03-08 10:15:00 File: site.config.ts Lines: Modified (User edit & Trigger deploy)
 2026-03-08 10:25:00 File: .github/workflows/gh-pages.yml Lines: 25-35 (Switch to pnpm & fix build)
 2026-03-08 10:25:00 File: public/.nojekyll Lines: New (Disable Jekyll processing)
+2026-03-08 10:35:00 File: .github/workflows/gh-pages.yml Lines: 23-45 (Upgrade actions: checkout@v4, pnpm@v3, setup-node@v4, gh-pages@v4)
