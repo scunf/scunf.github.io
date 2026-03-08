@@ -2,3 +2,5 @@
 2026-03-08 10:05:00 File: .github/workflows/gh-pages.yml Lines: 15-16 (Add permissions: contents: write)
 2026-03-08 10:05:00 File: PROJECT Lines: N/A (Rename branch main to master)
 2026-03-08 10:15:00 File: site.config.ts Lines: Modified (User edit & Trigger deploy)
+2026-03-08 10:25:00 File: .github/workflows/gh-pages.yml Lines: 25-35 (Switch to pnpm & fix build)
+2026-03-08 10:25:00 File: public/.nojekyll Lines: New (Disable Jekyll processing)
