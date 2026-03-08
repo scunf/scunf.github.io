@@ -1,13 +1,13 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://scunf.github.io/',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: 'SCuNF',
   author: {
     name: 'SCuNF',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: 'SCuNF的小站',
   social: [
     {
       name: 'RSS',
