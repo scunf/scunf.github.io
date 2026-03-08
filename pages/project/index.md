@@ -17,7 +17,7 @@ projects:
       - name: 半杯凉白开
         emoji: 🎮
         color: '#4682b4'
-        docs: 一个个人网站
+        desc: 一个个人网站
         textColor: white
         github: https://github.com/wusi321/wusi321.github.io
         url: https://wusi321.github.io
@@ -25,13 +25,12 @@ projects:
       - name: SCuNF
         emoji: 🎮
         color: '#22bbff'
-        docs: 一个个人博客
+        desc: 一个个人博客
         textColor: white
         github: https://github.com/SCuNF
         url: https://scunf.github.io/
         
-applets:
- interesting:
+  applets:
     title: 应用
     emoji: 📱
     collection:
@@ -48,7 +47,7 @@ applets:
         gradient: false
         github: YunYouJun/ai-sfc
         url: https://ai-sfc.yunyoujun.cn
-other:
+  other:
     title: 个人博客
     emoji: 📁
     collection:
