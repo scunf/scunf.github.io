@@ -2,7 +2,6 @@
 title: Lovely Girls
 date: 2026-03-08 11:17:35
 updated: 2026-03-08 11:17:35
-icon: i-ri-women-line
 girls:
   - name: C.C.
     anilist_id: 1111
