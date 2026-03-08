@@ -14,6 +14,20 @@ projects:
         github: https://github.com/wusi321/robocon
         url: https://scunf.github.io/project
         docs: https://scunf.github.io/project/robocon/
+      - name: 半杯凉白开
+        emoji: 🎮
+        color: '#4682b4'
+        textColor: white
+        github: https://github.com/wusi321/wusi321.github.io
+        url: https://wusi321.github.io
+        docs: 一个个人网站
+      - name: SCuNF
+        emoji: 🎮
+        color: '#22bbff'
+        textColor: white
+        github: https://github.com/SCuNF
+        url: https://scunf.github.io/
+        docs: 一个个人博客
 applets:
     title: 应用
     emoji: 📱
