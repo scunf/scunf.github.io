@@ -6,7 +6,7 @@ export default defineSiteConfig({
   title: 'SCuNF',
   author: {
     name: 'SCuNF',
-    avatar: '/favicon.svg',
+    avatar: '/aboutmy.jpg',
   },
   description: 'SCuNF的小站',
   social: [
