@@ -7,7 +7,7 @@ const fm = useFrontmatter()
 
 <template>
   <YunLayoutWrapper>
-    <YunLayoutLeft />
+    <!-- <YunLayoutLeft /> -->
 
     <div flex="~ col">
       <YunProjects />
@@ -18,7 +18,7 @@ const fm = useFrontmatter()
       />
     </div>
 
-    <YunLayoutRight />
+    <!-- <YunLayoutRight /> -->
   </YunLayoutWrapper>
 </template>
 
