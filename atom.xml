@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://scunf.github.io/</id>
+    <title>SCuNF</title>
+    <updated>2026-03-09T07:16:53.410Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>SCuNF</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://scunf.github.io/"/>
+    <link rel="self" href="https://scunf.github.io/atom.xml"/>
+    <subtitle>SCuNF的小站</subtitle>
+    <logo>https://scunf.github.io/aboutmy.jpg</logo>
+    <icon>https://scunf.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © SCuNF</rights>
+    <entry>
+        <title type="html"><![CDATA[第一篇文章]]></title>
+        <id>https://scunf.github.io/posts/newbowl</id>
+        <link href="https://scunf.github.io/posts/newbowl"/>
+        <updated>2026-03-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>文章</h2>
+<br/><p>访问 <a href="https://scunf.github.io/posts/newbowl" target="_blank">https://scunf.github.io/posts/newbowl</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>SCuNF</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-03-08T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://scunf.github.io/posts/hello-valaxy</id>
+        <link href="https://scunf.github.io/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://scunf.github.io/posts/hello-valaxy" target="_blank">https://scunf.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>SCuNF</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>

@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "SCuNF",
+    "home_page_url": "https://scunf.github.io/",
+    "feed_url": "https://scunf.github.io/feed.json",
+    "description": "SCuNF的小站",
+    "icon": "https://scunf.github.io/aboutmy.jpg",
+    "author": {
+        "name": "SCuNF",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://scunf.github.io/posts/newbowl",
+            "content_html": "<h2>文章</h2>\n<br/><p>访问 <a href=\"https://scunf.github.io/posts/newbowl\" target=\"_blank\">https://scunf.github.io/posts/newbowl</a> 阅读全文。</p>",
+            "url": "https://scunf.github.io/posts/newbowl",
+            "title": "第一篇文章",
+            "date_modified": "2026-03-08T00:00:00.000Z",
+            "date_published": "2026-03-08T00:00:00.000Z",
+            "author": {
+                "name": "SCuNF",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://scunf.github.io/posts/hello-valaxy",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://scunf.github.io/posts/hello-valaxy\" target=\"_blank\">https://scunf.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://scunf.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "SCuNF",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
