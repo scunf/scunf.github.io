@@ -46,6 +46,13 @@ projects:
         textColor: white
         gradient: false
         url: https://wusi321.github.io/2026/01/16/%E6%8F%90%E7%A4%BA%E8%AF%8D-%E4%B8%8Eai%E6%9C%89%E6%95%88%E4%BA%A4%E6%B5%81/
+      - name: openclaw + ollama
+        emoji: 🧧
+        desc: 基于openclaw和ollama的本地aiagent
+        color: '#429affff'
+        textColor: white
+        gradient: false
+        url: https://scunf.github.io/project/openclaw/
   other:
     title: 个人博客
     emoji: 📁
