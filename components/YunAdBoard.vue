@@ -5,8 +5,7 @@
 <template>
   <YunCard>
     <RouterLink to="/posts/how-to-use-adboard">
-      微信:33224445
-      qq:112233445
+      另一个博客:https://wusi321.github.io/
     </RouterLink>
   </YunCard>
 </template>
