@@ -1,3 +1,5 @@
 2026-05-18 | pages/links/index.md | L1-L289 | 重构友情链接页面，仿照 project/index.md 格式，添加 9 大分类共 45+ 个友情链接
 2026-05-18 | pages/links/index.md | L331-L365 | 在末尾添加 shopping 购物模块，引入淘宝/天猫/京东/闲鱼/立创商城等 5 个购物平台
 2026-05-18 | pages/links/index.md | other 模块 | 在 other 模块中添加哈长伟、嘉立创链接
+2026-05-18 | git-push.ps1 | L1-L26 | 新建 git 一键提交脚本
+2026-05-18 | package.json | L14 | 添加 npm push 脚本快捷方式
