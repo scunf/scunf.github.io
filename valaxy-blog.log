@@ -1,14 +1,1 @@
-# valaxy-blog 项目日志
-# =====================
-
-[2026-05-17]
-  操作: 新建文件
-  文件: pages/project/aupt.md
-  行数: L1-L144
-  说明: 根据 aupt简介.md 创建 AUPT 统一 Linux 包管理调度工具项目页面
-
-[2026-05-17]
-  操作: 修改文件
-  文件: pages/project/index.md
-  行数: L69-L74
-  说明: 在 other 分区补充 AUPT 项目标签，项目地址 github.com/wusi321/aupt
+2026-05-18 | pages/links/index.md | L1-L289 | 重构友情链接页面，仿照 project/index.md 格式，添加 9 大分类共 45+ 个友情链接
