@@ -328,6 +328,18 @@ projects:
         desc: 铨州CNC铝合金碳纤维加工
         textColor: white
         url: https://gy2025.com/
+      - name: 哈长伟
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 哈长伟碳纤维加工
+        textColor: white
+        url: https://www.grouphrc.com/cn
+      - name: 嘉立创
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 嘉立创
+        textColor: white
+        url: https://www.lceda.cn/
 
   shopping:
     title: 购物平台
