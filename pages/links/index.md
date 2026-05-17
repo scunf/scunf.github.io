@@ -88,6 +88,12 @@ projects:
         desc: Google 学术搜索，全球学术文献检索
         textColor: white
         url: https://scholar.google.com
+      - name: 学信网
+        emoji: 🔍
+        color: '#0066a1'
+        desc: 中国教育信息网，提供学习资源和资讯
+        textColor: white
+        url: https://www.xuetangx.com
       - name: IEEE Xplore
         emoji: ⚡
         color: '#0066a1'
@@ -188,6 +194,18 @@ projects:
         desc: 犬小哈教程网站
         textColor: white
         url: https://www.quanxiaoha.com/
+      - name: 立创硬件开源社区
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 立创硬件开源社区
+        textColor: white
+        url: https://oshwhub.com/
+      - name: 拓竹3D打印
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 拓竹3D打印社区
+        textColor: white
+        url: https://makerworld.com.cn/zh
 
   competitions:
     title: 学科竞赛
@@ -304,5 +322,46 @@ projects:
         desc: 软仓-实用工具与资源导航站
         textColor: white
         url: https://ruancang.net
+      - name: 铨州智造
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 铨州CNC铝合金碳纤维加工
+        textColor: white
+        url: https://gy2025.com/
+
+  shopping:
+    title: 购物平台
+    emoji: 🛒
+    collection:
+      - name: 淘宝
+        emoji: 🛍️
+        color: '#ff5000'
+        desc: 阿里巴巴旗下 C2C 电商平台
+        textColor: white
+        url: https://www.taobao.com
+      - name: 天猫
+        emoji: 🐱
+        color: '#ff0036'
+        desc: 阿里巴巴旗下 B2C 品牌电商平台
+        textColor: white
+        url: https://www.tmall.com
+      - name: 京东
+        emoji: 🐶
+        color: '#e2231a'
+        desc: 中国领先的综合电商与物流平台
+        textColor: white
+        url: https://www.jd.com
+      - name: 闲鱼
+        emoji: 🐟
+        color: '#ffc300'
+        desc: 阿里巴巴旗下二手交易平台
+        textColor: white
+        url: https://www.goofish.com
+      - name: 立创商城
+        emoji: 💾
+        color: '#005bac'
+        desc: 电子元器件一站式采购平台
+        textColor: white
+        url: https://www.szlcsc.com
 ---
 
