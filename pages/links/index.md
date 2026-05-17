@@ -71,7 +71,41 @@ projects:
         desc: 字节跳动推出的 AI Bot 开发平台
         textColor: white
         url: https://www.coze.com
-
+      - name: 通义千问
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 字节跳动推出的 AI 对话助手
+        textColor: white
+        url: https://www.aliyun.com/product/taobao/tongyiqianwen
+      - name: minimax
+        emoji: 🔍
+        color: '#ff6900'
+        desc: minimax AI 对话助手
+        textColor: white
+        url: https://www.minimax.cn
+  ai-agent:
+    title: ai Agent
+    emoji: 🤖
+    collection:
+      - name: Manus
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 全球首款通用人工智能
+        textColor: white
+        url: https://manus.im/
+      - name: Openclaw
+        emoji: 🔍
+        color: '#ff6900'
+        desc: Openclaw本地ai助手
+        textColor: white
+        url: https://openclaws.io/zh/
+      - name: Hermes
+        emoji: 🔍
+        color: '#ff6900'
+        desc: Hermes AI 助手
+        textColor: white
+        url: https://hermes-agent.nousresearch.com/
+        github: https://github.com/NousResearch/hermes-agent
   academic:
     title: 学术资源
     emoji: 🎓
@@ -182,6 +216,10 @@ projects:
         desc: 全球最大中文搜索引擎
         textColor: white
         url: https://www.baidu.com
+  ROBOT:
+    title: 机器人相关收集--Robocon
+    emoji: 🔧 
+    collection:
       - name: FishRos
         emoji: 🐟
         color: '#3cb371'
@@ -206,7 +244,42 @@ projects:
         desc: 拓竹3D打印社区
         textColor: white
         url: https://makerworld.com.cn/zh
-
+      - name: lain
+        emoji: 🔧
+        color: '#3cb371'
+        desc: lain 的运控
+        textColor: white
+        url: https://locowiki.github.io/
+      - name: 机器人工程师本科学习计划--lain
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 机器人工程师本科学习计划
+        textColor: white
+        url: https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD?from=from_copylink
+      - name: 机器人体系化教学文档--lain
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 机器人体系化教学文档
+        textColor: white
+        url: https://robotics-tutorial-wiki.vercel.app
+      - name: Robotics Tutorial
+        emoji: 🔧
+        color: '#3cb371'
+        desc: Robotics Tutorial 是一个开源的机器人学习项目
+        textColor: white
+        url: https://github.com/Michael-Jetson/Robotics_Tutorial
+      - name: 云urdf测试平台
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 云urdf测试平台
+        textColor: white
+        url: https://viewer.robotsfan.com/
+      - name: 简历自检--lain
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 简历教程
+        textColor: white
+        url: https://lain-database.feishu.cn/wiki/YvLewZLUKiKFVzkzUbsc8PCznbe
   competitions:
     title: 学科竞赛
     emoji: 🏆
@@ -265,6 +338,12 @@ projects:
         desc: 全国大学生统计建模大赛
         textColor: white
         url: http://tjjmds.ai-learning.net
+      - name: 全球校园人工智能算法精英大赛
+        emoji: 🏅
+        color: '#2196f3'
+        desc: 全球校园人工智能算法精英大赛
+        textColor: white
+        url: https://www.aicomp.cn/
       - name: 摩课云
         emoji: 🏅
         color: '#2196f3'
@@ -316,12 +395,18 @@ projects:
     title: 其他链接
     emoji: 🔗
     collection:
-      - name: ruancang.net
+      - name: 软仓
         emoji: 🛠️
         color: '#607d8b'
         desc: 软仓-实用工具与资源导航站
         textColor: white
         url: https://ruancang.net
+      - name: 果核剥壳
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 果核剥壳-软件逆向分析工具
+        textColor: white
+        url: https://www.ghxi.com
       - name: 铨州智造
         emoji: 🔧
         color: '#3cb371'
