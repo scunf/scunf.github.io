@@ -67,6 +67,12 @@ projects:
         color: '#0f3e69ff'
         desc: SCuNF 是我的个人博客，记录了我的学习过程和生活。
         url: https://scunf.github.io
+      - name: AUPT
+        emoji: 📦
+        color: '#ff6b35'
+        desc: 统一 Linux 包管理调度工具，自动识别发行版并选择最优包管理器。
+        github: https://github.com/wusi321/aupt
+        url: https://github.com/wusi321/aupt
       - name: baibai
         emoji: ☁️
         color: '#7c02f5ff'
