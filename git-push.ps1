@@ -1,19 +1,19 @@
-param(
-    [string]$msg = "update: 更新内容"
+﻿param(
+    [string]$msg = "update: update content"
 )
 
-Write-Host "====== Git 一键提交 ======" -ForegroundColor Cyan
+Write-Host "====== Git Push Script ======" -ForegroundColor Cyan
 Write-Host ""
 
 git status
 Write-Host ""
 
-Write-Host "提交信息: $msg" -ForegroundColor Yellow
+Write-Host "Commit message: $msg" -ForegroundColor Yellow
 git add .
 git commit -m $msg
 
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "提交失败，请检查错误信息" -ForegroundColor Red
+    Write-Host "Commit failed!" -ForegroundColor Red
     exit 1
 }
 
@@ -22,5 +22,5 @@ git push
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host ""
-    Write-Host "====== 推送成功 ======" -ForegroundColor Green
+    Write-Host "====== Push Success! ======" -ForegroundColor Green
 }
