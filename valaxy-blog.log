@@ -3,3 +3,4 @@
 2026-05-18 | pages/links/index.md | other 模块 | 在 other 模块中添加哈长伟、嘉立创链接
 2026-05-18 | git-push.ps1 | L1-L26 | 新建 git 一键提交脚本
 2026-05-18 | package.json | L14 | 添加 npm push 脚本快捷方式
+2026-05-18 | pages/links/index.md | 全局颜色优化 | 优化各模块颜色：ai-agent/AI IDE/ai开放平台/ROBOT/other 等模块告别单调同色，共调整 45+ 项颜色

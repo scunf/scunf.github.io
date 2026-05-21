@@ -61,7 +61,7 @@ projects:
         url: https://kimi.moonshot.cn
       - name: kimi ppt助手
         emoji: 🔍
-        color: '#ff6900'
+        color: '#7c3aed'
         desc: 月之暗面推出的 ppt 助手
         textColor: white
         url: https://www.kimi.com/zh/slides
@@ -79,19 +79,19 @@ projects:
         url: https://www.coze.com
       - name: 通义千问
         emoji: 🔍
-        color: '#ff6900'
+        color: '#ff6b00'
         desc: 阿里推出的 AI 对话助手
         textColor: white
         url: https://www.aliyun.com/product/taobao/tongyiqianwen
       - name: minimax
         emoji: 🔍
-        color: '#ff6900'
+        color: '#06b6d4'
         desc: minimax AI 对话助手
         textColor: white
         url: https://www.minimax.cn
       - name: ollama
         emoji: 🔍
-        color: '#ff6900'
+        color: '#f59e0b'
         desc: ollama 本地 ai 助手
         textColor: white
         url: https://ollama.com/
@@ -101,19 +101,19 @@ projects:
     collection:
       - name: Manus
         emoji: 🔍
-        color: '#ff6900'
+        color: '#6366f1'
         desc: 全球首款通用人工智能
         textColor: white
         url: https://manus.im/
       - name: Openclaw
         emoji: 🔍
-        color: '#ff6900'
+        color: '#f97316'
         desc: Openclaw本地ai助手
         textColor: white
         url: https://openclaws.io/zh/
       - name: Hermes
         emoji: 🔍
-        color: '#ff6900'
+        color: '#14b8a6'
         desc: Hermes AI 助手
         textColor: white
         url: https://hermes-agent.nousresearch.com/
@@ -124,61 +124,61 @@ projects:
     collection:
       - name: 微软 Copilot
         emoji: 🔍
-        color: '#ff6900'
+        color: '#0078d4'
         desc: 微软推出的 AI 助手
         textColor: white
         url: https://copilot.microsoft.com/
       - name: 谷歌 AI Studio
         emoji: 🔍
-        color: '#ff6900'
+        color: '#34a853'
         desc: Google 推出的 AI 助手
         textColor: white
         url: https://aistudio.google.com/
       - name: trae_cn
         emoji: 🔍
-        color: '#ff6900'
+        color: '#00d4aa'
         desc: 字节跳动推出的 AI 集成式开发环境
         textColor: white
         url: https://www.trae.cn/
       - name: krio
         emoji: 🔍
-        color: '#ff6900'
+        color: '#ff9900'
         desc: 亚马逊推出的 AI 集成式开发环境
         textColor: white
         url: https://www.krio.dev/
       - name: Antigravity
         emoji: 🔍
-        color: '#ff6900'
+        color: '#5b4ae0'
         desc: google推出的 AI 集成式开发环境
         textColor: white
         url: https://antigravity.google/
       - name: Qoder
         emoji: 🔍
-        color: '#ff6900'
+        color: '#ff6a00'
         desc: 阿里推出的 AI 集成式开发环境
         textColor: white
         url: https://www.qoder.cn/
       - name: cursor
         emoji: 🔍
-        color: '#ff6900'
+        color: '#6c3cf0'
         desc:  Cursor 推出的 AI 集成式开发环境
         textColor: white
         url: https://www.cursor.com/
       - name: codex
         emoji: 🔍
-        color: '#ff6900'
+        color: '#10a37f'
         desc:  OpenAI 推出的 AI 集成式开发环境
         textColor: white
         url: https://chatgpt.com/zh-Hans-CN/codex/
       - name: claude code
         emoji: 🔍
-        color: '#ff6900'
+        color: '#d97706'
         desc: claude code AI 开发环境
         textColor: white
         url: https://code.claude.com/docs/zh-CN/quickstart
       - name: copilot
         emoji: 🔍
-        color: '#ff6900'
+        color: '#24292e'
         desc: github的 AI 助手
         textColor: white
         url: https://github.com/copilot
@@ -188,25 +188,25 @@ projects:
     collection:
       - name: deepseek开放平台
         emoji: 🔍
-        color: '#ff6900'
+        color: '#4d6bfe'
         desc: 深度求索推出的国产大模型开放平台
         textColor: white
         url: https://platform.deepseek.com/usage
       - name: 火山引擎开放平台
         emoji: 🔍
-        color: '#ff6900'
+        color: '#f2622e'
         desc: 火山引擎推出的国产大模型开放平台
         textColor: white
         url: https://www.volcengine.com/
       - name: gpt开放平台
         emoji: 🔍
-        color: '#ff6900'
+        color: '#10a37f'
         desc: OpenAI 推出的 AI 对话助手开放平台
         textColor: white
         url: https://platform.openai.com/
       - name: gemini开放平台
         emoji: 🔍
-        color: '#ff6900'
+        color: '#4285f4'
         desc: Google 推出的 AI 对话助手开放平台
         textColor: white
         url: https://aistudio.google.com/prompts/new_chat
@@ -218,7 +218,7 @@ projects:
         url: https://platform.xiaomimimo.com/docs/zh-CN/welcome
       - name: 华为开发者联盟
         emoji: 🔍
-        color: '#ff6900'
+        color: '#cf0a2c'
         desc: 华为开发者联盟
         textColor: white
         url: https://developer.huawei.com/consumer/cn/
@@ -240,7 +240,7 @@ projects:
         url: https://scholar.google.com
       - name: 学信网
         emoji: 🔍
-        color: '#0066a1'
+        color: '#1677ff'
         desc: 中国教育信息网，提供学习资源和资讯
         textColor: white
         url: https://www.xuetangx.com
@@ -252,13 +252,13 @@ projects:
         url: https://ieeexplore.ieee.org
       - name: Science Citation Index Expanded
         emoji: 🔍
-        color: '#0066a1'
+        color: '#6366f1'
         desc: 国际电气电子工程师学会学术文献检索系统
         textColor: white
         url: https://www.scimagojr.com
       - name: 艾斯科蓝
         emoji: 🔍
-        color: '#0066a1'
+        color: '#0891b2'
         desc: EI会议学术交流系统
         textColor: white
         url: https://www.ais.cn/attendees
@@ -344,68 +344,68 @@ projects:
         url: https://fishros.com
       - name: 犬小哈教程
         emoji: 🐾
-        color: '#3cb371'
+        color: '#f59e0b'
         desc: 犬小哈教程网站
         textColor: white
         url: https://www.quanxiaoha.com/
       - name: 立创硬件开源社区
         emoji: 🔧
-        color: '#3cb371'
+        color: '#005bac'
         desc: 立创硬件开源社区
         textColor: white
         url: https://oshwhub.com/
       - name: 拓竹3D打印
         emoji: 🔧
-        color: '#3cb371'
+        color: '#00b050'
         desc: 拓竹3D打印社区
         textColor: white
         url: https://makerworld.com.cn/zh
       - name: lain
         emoji: 🔧
-        color: '#3cb371'
+        color: '#7c3aed'
         desc: lain 的运控
         textColor: white
         url: https://locowiki.github.io/
       - name: 机器人工程师本科学习计划--lain
         emoji: 🔧
-        color: '#3cb371'
+        color: '#2563eb'
         desc: 机器人工程师本科学习计划
         textColor: white
         url: https://lain-database.feishu.cn/wiki/PgYswrFOZixDJEkilrPcSJ1cnRD?from=from_copylink
       - name: 机器人体系化教学文档--lain
         emoji: 🔧
-        color: '#3cb371'
+        color: '#dc2626'
         desc: 机器人体系化教学文档
         textColor: white
         url: https://robotics-tutorial-wiki.vercel.app
       - name: Robotics Tutorial
         emoji: 🔧
-        color: '#3cb371'
+        color: '#0891b2'
         desc: Robotics Tutorial 是一个开源的机器人学习项目
         textColor: white
         url: https://github.com/Michael-Jetson/Robotics_Tutorial
       - name: 云urdf测试平台
         emoji: 🔧
-        color: '#3cb371'
+        color: '#9333ea'
         desc: 云urdf测试平台
         textColor: white
         url: https://viewer.robotsfan.com/
       - name: 简历自检--lain
         emoji: 🔧
-        color: '#3cb371'
+        color: '#0369a1'
         desc: 简历教程
         textColor: white
         url: https://lain-database.feishu.cn/wiki/YvLewZLUKiKFVzkzUbsc8PCznbe
       - name: 宇树机器开源项目
         emoji: 🔧
-        color: '#3cb371'
+        color: '#ea580c'
         desc: 宇树机器开源项目
         textColor: white
         url: https://www.unifolm.com/
         github: https://github.com/unitreerobotics
       - name: RM社区
         emoji: 🔧
-        color: '#3cb371'
+        color: '#b91c1c'
         desc: RM社区
         textColor: white
         url: https://bbs.robomaster.com/
@@ -469,7 +469,7 @@ projects:
         url: http://tjjmds.ai-learning.net
       - name: 全球校园人工智能算法精英大赛
         emoji: 🏅
-        color: '#2196f3'
+        color: '#2563eb'
         desc: 全球校园人工智能算法精英大赛
         textColor: white
         url: https://www.aicomp.cn/
@@ -481,7 +481,7 @@ projects:
         url: https://cc.moocollege.com
       - name: 华为ict程序设计大赛
         emoji: 🔧
-        color: '#3cb371'
+        color: '#cf0a2c'
         desc: 华为ict程序设计大赛
         textColor: white
         url: https://e.huawei.com/cn/talent/ict-academy/#/home
@@ -538,25 +538,25 @@ projects:
         url: https://ruancang.net
       - name: 果核剥壳
         emoji: 🔧
-        color: '#3cb371'
+        color: '#e11d48'
         desc: 果核剥壳-软件逆向分析工具
         textColor: white
         url: https://www.ghxi.com
       - name: 铨州智造
         emoji: 🔧
-        color: '#3cb371'
+        color: '#0284c7'
         desc: 铨州CNC铝合金碳纤维加工
         textColor: white
         url: https://gy2025.com/
       - name: 哈长伟
         emoji: 🔧
-        color: '#3cb371'
+        color: '#ca8a04'
         desc: 哈长伟碳纤维加工
         textColor: white
         url: https://www.grouphrc.com/cn
       - name: 嘉立创
         emoji: 🔧
-        color: '#3cb371'
+        color: '#7c3aed'
         desc: 嘉立创
         textColor: white
         url: https://www.lceda.cn/
