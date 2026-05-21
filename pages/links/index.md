@@ -59,6 +59,12 @@ projects:
         desc: 月之暗面推出的智能助手
         textColor: white
         url: https://kimi.moonshot.cn
+      - name: kimi ppt助手
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 月之暗面推出的 ppt 助手
+        textColor: white
+        url: https://www.kimi.com/zh/slides
       - name: 豆包
         emoji: 🫘
         color: '#3370ff'
@@ -74,7 +80,7 @@ projects:
       - name: 通义千问
         emoji: 🔍
         color: '#ff6900'
-        desc: 字节跳动推出的 AI 对话助手
+        desc: 阿里推出的 AI 对话助手
         textColor: white
         url: https://www.aliyun.com/product/taobao/tongyiqianwen
       - name: minimax
@@ -83,6 +89,12 @@ projects:
         desc: minimax AI 对话助手
         textColor: white
         url: https://www.minimax.cn
+      - name: ollama
+        emoji: 🔍
+        color: '#ff6900'
+        desc: ollama 本地 ai 助手
+        textColor: white
+        url: https://ollama.com/
   ai-agent:
     title: ai Agent
     emoji: 🤖
@@ -106,6 +118,110 @@ projects:
         textColor: white
         url: https://hermes-agent.nousresearch.com/
         github: https://github.com/NousResearch/hermes-agent
+  AI 集成式开发环境:
+    title: AI 集成式开发环境
+    emoji: 🤖
+    collection:
+      - name: 微软 Copilot
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 微软推出的 AI 助手
+        textColor: white
+        url: https://copilot.microsoft.com/
+      - name: 谷歌 AI Studio
+        emoji: 🔍
+        color: '#ff6900'
+        desc: Google 推出的 AI 助手
+        textColor: white
+        url: https://aistudio.google.com/
+      - name: trae_cn
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 字节跳动推出的 AI 集成式开发环境
+        textColor: white
+        url: https://www.trae.cn/
+      - name: krio
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 亚马逊推出的 AI 集成式开发环境
+        textColor: white
+        url: https://www.krio.dev/
+      - name: Antigravity
+        emoji: 🔍
+        color: '#ff6900'
+        desc: google推出的 AI 集成式开发环境
+        textColor: white
+        url: https://antigravity.google/
+      - name: Qoder
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 阿里推出的 AI 集成式开发环境
+        textColor: white
+        url: https://www.qoder.cn/
+      - name: cursor
+        emoji: 🔍
+        color: '#ff6900'
+        desc:  Cursor 推出的 AI 集成式开发环境
+        textColor: white
+        url: https://www.cursor.com/
+      - name: codex
+        emoji: 🔍
+        color: '#ff6900'
+        desc:  OpenAI 推出的 AI 集成式开发环境
+        textColor: white
+        url: https://chatgpt.com/zh-Hans-CN/codex/
+      - name: claude code
+        emoji: 🔍
+        color: '#ff6900'
+        desc: claude code AI 开发环境
+        textColor: white
+        url: https://code.claude.com/docs/zh-CN/quickstart
+      - name: copilot
+        emoji: 🔍
+        color: '#ff6900'
+        desc: github的 AI 助手
+        textColor: white
+        url: https://github.com/copilot
+  ai开放平台:
+    title: ai 开放平台
+    emoji: 🤖
+    collection:
+      - name: deepseek开放平台
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 深度求索推出的国产大模型开放平台
+        textColor: white
+        url: https://platform.deepseek.com/usage
+      - name: 火山引擎开放平台
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 火山引擎推出的国产大模型开放平台
+        textColor: white
+        url: https://www.volcengine.com/
+      - name: gpt开放平台
+        emoji: 🔍
+        color: '#ff6900'
+        desc: OpenAI 推出的 AI 对话助手开放平台
+        textColor: white
+        url: https://platform.openai.com/
+      - name: gemini开放平台
+        emoji: 🔍
+        color: '#ff6900'
+        desc: Google 推出的 AI 对话助手开放平台
+        textColor: white
+        url: https://aistudio.google.com/prompts/new_chat
+      - name: 小米mimo开放平台
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 小米推出的通用智能基座大模型开放平台
+        textColor: white
+        url: https://platform.xiaomimimo.com/docs/zh-CN/welcome
+      - name: 华为开发者联盟
+        emoji: 🔍
+        color: '#ff6900'
+        desc: 华为开发者联盟
+        textColor: white
+        url: https://developer.huawei.com/consumer/cn/
   academic:
     title: 学术资源
     emoji: 🎓
@@ -280,6 +396,19 @@ projects:
         desc: 简历教程
         textColor: white
         url: https://lain-database.feishu.cn/wiki/YvLewZLUKiKFVzkzUbsc8PCznbe
+      - name: 宇树机器开源项目
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 宇树机器开源项目
+        textColor: white
+        url: https://www.unifolm.com/
+        github: https://github.com/unitreerobotics
+      - name: RM社区
+        emoji: 🔧
+        color: '#3cb371'
+        desc: RM社区
+        textColor: white
+        url: https://bbs.robomaster.com/
   competitions:
     title: 学科竞赛
     emoji: 🏆
@@ -350,7 +479,13 @@ projects:
         desc: 高校学生竞赛与教师发展数据服务平台
         textColor: white
         url: https://cc.moocollege.com
-
+      - name: 华为ict程序设计大赛
+        emoji: 🔧
+        color: '#3cb371'
+        desc: 华为ict程序设计大赛
+        textColor: white
+        url: https://e.huawei.com/cn/talent/ict-academy/#/home
+      
   education:
     title: 教学平台
     emoji: 🎬
