@@ -595,5 +595,11 @@ projects:
         desc: 电子元器件一站式采购平台
         textColor: white
         url: https://www.szlcsc.com
+      - name: api中转站
+        emoji: 🔧
+        color: '#007bff'
+        desc: 提供 API 服务的中转站
+        textColor: white
+        url: https://api.waveapi.top
 ---
 
