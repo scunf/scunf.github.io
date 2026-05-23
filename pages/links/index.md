@@ -76,7 +76,7 @@ projects:
         color: '#6b5ce7'
         desc: 字节跳动推出的 AI Bot 开发平台
         textColor: white
-        url: https://www.coze.com
+        url: https://www.coze.cn/
       - name: 通义千问
         emoji: 🔍
         color: '#ff6b00'
