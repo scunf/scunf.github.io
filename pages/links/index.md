@@ -419,6 +419,18 @@ projects:
         desc: 教育部主办，电子信息类 A 类学科竞赛
         textColor: white
         url: https://nuedc.xjtu.edu.cn
+      - name: 全国大学生智能汽车竞赛
+        emoji: 🏎️
+        color: '#ff5722'
+        desc: 中国电子学会主办，智能汽车设计竞赛
+        textColor: white
+        url: http://smartcarrace.com/
+      - name: 全国大学生嵌入式系统设计竞赛
+        emoji: 🔧
+        color: '#388e3c'
+        desc: 中国电子学会主办，嵌入式系统设计竞赛
+        textColor: white
+        url: https://www.embedcn.org
       - name: 全国大学生物联网设计竞赛
         emoji: 🌐
         color: '#1976d2'
