@@ -222,7 +222,7 @@ projects:
         desc: 华为开发者联盟
         textColor: white
         url: https://developer.huawei.com/consumer/cn/
-      - name:flameapi
+      - name: flameapi
         emoji: 🔍
         color: '#0514c2ff'
         desc: 中转站
