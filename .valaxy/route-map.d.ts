@@ -61,6 +61,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/albums/': RouteRecordInfo<
+      '/albums/',
+      '/albums',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
@@ -199,6 +206,12 @@ declare module 'vue-router/auto-routes' {
     'pages/about/site.md': {
       routes:
         | '/about/site'
+      views:
+        | never
+    }
+    'pages/albums/index.md': {
+      routes:
+        | '/albums/'
       views:
         | never
     }
