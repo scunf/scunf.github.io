@@ -3,8 +3,6 @@ name: GitHub Pages
 on:
   push:
     branches:
-      # The branch where the project source code resides
-      # 项目源代码所在的分支
       - main
       - master
       - valaxy
@@ -36,11 +34,18 @@ jobs:
           registry-url: https://registry.npmjs.org/
           cache: 'pnpm'
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Install Blog Dependencies
         run: pnpm install
 
+      - name: 📦 Install Robot Viewer Dependencies
+        working-directory: ./robot_viewer
+        run: pnpm install
+
+      - name: 🤖 Build Robot Viewer
+        run: npm run build:viewer
+
       - name: 🌌 Build Valaxy Blog
-        run: pnpm run build
+        run: pnpm run build:ssg
 
       - name: 🪤 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -75,6 +75,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/girls/': RouteRecordInfo<
+      '/girls/',
+      '/girls',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
@@ -99,6 +106,48 @@ declare module 'vue-router/auto-routes' {
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/newbowl': RouteRecordInfo<
+      '/posts/newbowl',
+      '/posts/newbowl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/': RouteRecordInfo<
+      '/project/',
+      '/project',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/aupt': RouteRecordInfo<
+      '/project/aupt',
+      '/project/aupt',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/openclaw': RouteRecordInfo<
+      '/project/openclaw',
+      '/project/openclaw',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/robocon': RouteRecordInfo<
+      '/project/robocon',
+      '/project/robocon',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/robot_viewer': RouteRecordInfo<
+      '/project/robot_viewer',
+      '/project/robot_viewer',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -165,6 +214,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/girls/index.md': {
+      routes:
+        | '/girls/'
+      views:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
@@ -186,6 +241,42 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/newbowl.md': {
+      routes:
+        | '/posts/newbowl'
+      views:
+        | never
+    }
+    'pages/project/index.md': {
+      routes:
+        | '/project/'
+      views:
+        | never
+    }
+    'pages/project/aupt.md': {
+      routes:
+        | '/project/aupt'
+      views:
+        | never
+    }
+    'pages/project/openclaw.md': {
+      routes:
+        | '/project/openclaw'
+      views:
+        | never
+    }
+    'pages/project/robocon.md': {
+      routes:
+        | '/project/robocon'
+      views:
+        | never
+    }
+    'pages/project/robot_viewer.md': {
+      routes:
+        | '/project/robot_viewer'
       views:
         | never
     }

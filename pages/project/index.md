@@ -1,4 +1,4 @@
----
+﻿---
 title: 我的小项目们
 layout: projects
 projects:
@@ -21,6 +21,14 @@ projects:
         textColor: white
         github: https://github.com/wusi321/wusi321.github.io
         url: https://wusi321.github.io
+        
+      - name: Robot Viewer
+        emoji: 🤖
+        color: '#0a84ff'
+        desc: 基于Three.js的机器人模型3D查看器，支持URDF/Xacro/MJCF/USD格式
+        textColor: white
+        github: https://github.com/fan-ziqi/robot_viewer
+        url: /project/robot_viewer/
         
       - name: SCuNF
         emoji: 🎮
