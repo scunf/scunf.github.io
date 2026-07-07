@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-layout: projects
+layout: links
 projects:
   blogs:
     title: 个人博客
@@ -620,4 +620,3 @@ projects:
         textColor: white
         url: https://api.waveapi.top
 ---
-
