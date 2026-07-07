@@ -18,4 +18,15 @@ albums:
     cover: https://picsum.photos/seed/album4/400/300
     caption: 示例相册4
     desc: 第四个示例相册
+title: 日常
+layout: albums
+albums:
+  - url: /albums/
+    cover: https://picsum.photos/seed/album5/400/300
+    caption: 示例相册1
+    desc: 这是一个示例相册
+  - url: /albums/
+    cover: https://picsum.photos/seed/album6/400/300
+    caption: 示例相册2
+    desc: 这是另一个示例相册
 ---
