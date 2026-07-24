@@ -228,6 +228,18 @@ projects:
         desc: 中转站
         textColor: white
         url: https://api.flameapi.cn/dashboard
+      - name: 皮卡词元
+        emoji: 🔍
+        color: '#0514c2ff'
+        desc: 中转站
+        textColor: white
+        url: https://llmapi.opkg.cn/dashboard
+      - name: 中转站3
+        emoji: 🔍
+        color: '#0514c2ff'
+        desc: 中转站
+        textColor: white
+        url: https://spatialai.vip/
   academic:
     title: 学术资源
     emoji: 🎓
