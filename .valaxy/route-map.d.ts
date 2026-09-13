@@ -180,6 +180,34 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/project/2026-h-ti': RouteRecordInfo<
+      '/project/2026-h-ti',
+      '/project/2026-h-ti',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/aepd': RouteRecordInfo<
+      '/project/aepd',
+      '/project/aepd',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/agent-robot-framework': RouteRecordInfo<
+      '/project/agent-robot-framework',
+      '/project/agent-robot-framework',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/agentos': RouteRecordInfo<
+      '/project/agentos',
+      '/project/agentos',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/project/aupt': RouteRecordInfo<
       '/project/aupt',
       '/project/aupt',
@@ -187,9 +215,37 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/project/examguard': RouteRecordInfo<
+      '/project/examguard',
+      '/project/examguard',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/kali-tools-reference': RouteRecordInfo<
+      '/project/kali-tools-reference',
+      '/project/kali-tools-reference',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/ollama-ai': RouteRecordInfo<
+      '/project/ollama-ai',
+      '/project/ollama-ai',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/project/openclaw': RouteRecordInfo<
       '/project/openclaw',
       '/project/openclaw',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/rc-legged-training-simulation': RouteRecordInfo<
+      '/project/rc-legged-training-simulation',
+      '/project/rc-legged-training-simulation',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -204,6 +260,41 @@ declare module 'vue-router/auto-routes' {
     '/project/robot_viewer': RouteRecordInfo<
       '/project/robot_viewer',
       '/project/robot_viewer',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/robot-hermes-skill': RouteRecordInfo<
+      '/project/robot-hermes-skill',
+      '/project/robot-hermes-skill',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/software-cup-fire-detection': RouteRecordInfo<
+      '/project/software-cup-fire-detection',
+      '/project/software-cup-fire-detection',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/software-cup-object-detection': RouteRecordInfo<
+      '/project/software-cup-object-detection',
+      '/project/software-cup-object-detection',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/solidworks-design-collection': RouteRecordInfo<
+      '/project/solidworks-design-collection',
+      '/project/solidworks-design-collection',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/project/wheelleg-fullstack-challenge': RouteRecordInfo<
+      '/project/wheelleg-fullstack-challenge',
+      '/project/wheelleg-fullstack-challenge',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -360,15 +451,63 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/project/2026-h-ti.md': {
+      routes:
+        | '/project/2026-h-ti'
+      views:
+        | never
+    }
+    'pages/project/aepd.md': {
+      routes:
+        | '/project/aepd'
+      views:
+        | never
+    }
+    'pages/project/agent-robot-framework.md': {
+      routes:
+        | '/project/agent-robot-framework'
+      views:
+        | never
+    }
+    'pages/project/agentos.md': {
+      routes:
+        | '/project/agentos'
+      views:
+        | never
+    }
     'pages/project/aupt.md': {
       routes:
         | '/project/aupt'
       views:
         | never
     }
+    'pages/project/examguard.md': {
+      routes:
+        | '/project/examguard'
+      views:
+        | never
+    }
+    'pages/project/kali-tools-reference.md': {
+      routes:
+        | '/project/kali-tools-reference'
+      views:
+        | never
+    }
+    'pages/project/ollama-ai.md': {
+      routes:
+        | '/project/ollama-ai'
+      views:
+        | never
+    }
     'pages/project/openclaw.md': {
       routes:
         | '/project/openclaw'
+      views:
+        | never
+    }
+    'pages/project/rc-legged-training-simulation.md': {
+      routes:
+        | '/project/rc-legged-training-simulation'
       views:
         | never
     }
@@ -381,6 +520,36 @@ declare module 'vue-router/auto-routes' {
     'pages/project/robot_viewer.md': {
       routes:
         | '/project/robot_viewer'
+      views:
+        | never
+    }
+    'pages/project/robot-hermes-skill.md': {
+      routes:
+        | '/project/robot-hermes-skill'
+      views:
+        | never
+    }
+    'pages/project/software-cup-fire-detection.md': {
+      routes:
+        | '/project/software-cup-fire-detection'
+      views:
+        | never
+    }
+    'pages/project/software-cup-object-detection.md': {
+      routes:
+        | '/project/software-cup-object-detection'
+      views:
+        | never
+    }
+    'pages/project/solidworks-design-collection.md': {
+      routes:
+        | '/project/solidworks-design-collection'
+      views:
+        | never
+    }
+    'pages/project/wheelleg-fullstack-challenge.md': {
+      routes:
+        | '/project/wheelleg-fullstack-challenge'
       views:
         | never
     }

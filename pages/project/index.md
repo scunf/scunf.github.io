@@ -81,6 +81,84 @@ projects:
         desc: 统一 Linux 包管理调度工具，自动识别发行版并选择最优包管理器。
         github: https://github.com/wusi321/aupt
         url: https://github.com/wusi321/aupt
+      - name: wusiOS
+        emoji: 🧠
+        color: '#2563eb'
+        desc: 面向本地 CLI Agent 的任务编排、终端托管与验证控制平面。
+        github: https://github.com/wusi321/AgentOS
+        url: /project/agentos/
+      - name: 16DOF 轮足仿真
+        emoji: 🦿
+        color: '#0891b2'
+        desc: 基于 MuJoCo 和 mjlab 的轮足机器人强化学习与 Sim2Sim 工程。
+        github: https://github.com/wusi321/RC_Legged_Training_Simulation
+        url: /project/rc-legged-training-simulation/
+      - name: AEPD
+        emoji: 🔌
+        color: '#dc2626'
+        desc: 面向 AI Agent 的嵌入式 Linux、MCU 与硬件控制平台设计。
+        github: https://github.com/wusi321/AEPD
+        url: /project/aepd/
+      - name: WheelLeg 全栈考核
+        emoji: 🛞
+        color: '#7c3aed'
+        desc: 覆盖 CAD、ROS 2、控制器、MCU、CAN 和视觉的机器人综合工程。
+        github: https://github.com/wusi321/WheelLeg-FullStack-Challenge
+        url: /project/wheelleg-fullstack-challenge/
+      - name: 2026 电赛 H 题
+        emoji: ⚖️
+        color: '#ea580c'
+        desc: MaixCAM、MSPM0G3507 和 Web 调参台组成的车载平衡滚球系统。
+        github: https://github.com/wusi321/2026-H-TI
+        url: /project/2026-h-ti/
+      - name: ExamGuard
+        emoji: 🛡️
+        color: '#475569'
+        desc: 局域网考试监控系统的协议、客户端和逆向分析整理。
+        github: https://github.com/wusi321/ExamGuard
+        url: /project/examguard/
+      - name: 软件杯目标检测
+        emoji: 🎯
+        color: '#16a34a'
+        desc: 基于 PP-YOLOE 的电池、电路板和火焰目标检测训练工程。
+        github: https://github.com/wusi321/ruanjianbei
+        url: /project/software-cup-object-detection/
+      - name: 软件杯火灾检测
+        emoji: 🔥
+        color: '#b91c1c'
+        desc: 火灾检测数据清洗、标注转换、训练和推理分析工具集。
+        github: https://github.com/wusi321/ruanjianAB
+        url: /project/software-cup-fire-detection/
+      - name: SolidWorks 设计集
+        emoji: 🧩
+        color: '#0f766e'
+        desc: SolidWorks 零件、装配体、3D 打印文件和自动化导出工具。
+        github: https://github.com/wusi321/myswwork
+        url: /project/solidworks-design-collection/
+      - name: Kali Tools
+        emoji: 🔐
+        color: '#1e293b'
+        desc: Kali Linux 安全工具分类速查手册与 Codex skill。
+        github: https://github.com/wusi321/kali-tools
+        url: /project/kali-tools-reference/
+      - name: Agent Robot Framework
+        emoji: 🤖
+        color: '#0284c7'
+        desc: Hermes Agent、Robot API 与 STM32 Runtime 组成的机器人中间件。
+        github: https://github.com/wusi321/AgentRobotFramework
+        url: /project/agent-robot-framework/
+      - name: Robot Hermes Skill
+        emoji: 🐕
+        color: '#9333ea'
+        desc: 面向 8DOF 四足机器人的分层 Skill 与实时控制框架。
+        github: https://github.com/wusi321/RobotHermesSkill
+        url: /project/robot-hermes-skill/
+      - name: Ollama 本地 Agent
+        emoji: 🧠
+        color: '#059669'
+        desc: 基于 Ollama 的本地对话、文件阅读、代码和图片分析实验。
+        github: https://github.com/wusi321/ollama_ai
+        url: /project/ollama-ai/
       - name: baibai
         emoji: ☁️
         color: '#7c02f5ff'
