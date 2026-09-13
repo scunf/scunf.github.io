@@ -124,6 +124,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/aupt-package-manager': RouteRecordInfo<
+      '/posts/aupt-package-manager',
+      '/posts/aupt-package-manager',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
@@ -131,9 +138,37 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/hexo-blog-guide': RouteRecordInfo<
+      '/posts/hexo-blog-guide',
+      '/posts/hexo-blog-guide',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/local-ai-agent-with-ollama': RouteRecordInfo<
+      '/posts/local-ai-agent-with-ollama',
+      '/posts/local-ai-agent-with-ollama',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/markdown-guide': RouteRecordInfo<
+      '/posts/markdown-guide',
+      '/posts/markdown-guide',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/newbowl': RouteRecordInfo<
       '/posts/newbowl',
       '/posts/newbowl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ubuntu-ros-training': RouteRecordInfo<
+      '/posts/ubuntu-ros-training',
+      '/posts/ubuntu-ros-training',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -277,15 +312,45 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/aupt-package-manager.md': {
+      routes:
+        | '/posts/aupt-package-manager'
+      views:
+        | never
+    }
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
       views:
         | never
     }
+    'pages/posts/hexo-blog-guide.md': {
+      routes:
+        | '/posts/hexo-blog-guide'
+      views:
+        | never
+    }
+    'pages/posts/local-ai-agent-with-ollama.md': {
+      routes:
+        | '/posts/local-ai-agent-with-ollama'
+      views:
+        | never
+    }
+    'pages/posts/markdown-guide.md': {
+      routes:
+        | '/posts/markdown-guide'
+      views:
+        | never
+    }
     'pages/posts/newbowl.md': {
       routes:
         | '/posts/newbowl'
+      views:
+        | never
+    }
+    'pages/posts/ubuntu-ros-training.md': {
+      routes:
+        | '/posts/ubuntu-ros-training'
       views:
         | never
     }
