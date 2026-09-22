@@ -14,7 +14,7 @@ girls:
     from: 加速世界
     avatar: https://s4.anilist.co/file/anilistcdn/character/medium/b46305-CiZOEqz5u1mk.png
 # You also can pass a json link.
-# girls: https://wives.yunyoujun.cn/girls.json
+# girls: https://github.com/wusi321
 random: false
 excerpt: 一些我喜欢的可爱女孩子
 aside: false

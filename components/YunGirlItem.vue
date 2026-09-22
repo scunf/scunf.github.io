@@ -40,8 +40,8 @@ useMotion(itemRef, {
 const onImgError = (e: Event) => {
   const targetEl = e.target as HTMLImageElement
   // Use a reliable placeholder or just keep the broken image if you prefer
-  // Here we use a generic avatar placeholder from a CDN
-  targetEl.src = 'https://cdn.yunyoujun.cn/img/avatar/none.jpg' 
+  // Here we use the local avatar as the fallback
+  targetEl.src = '/aboutmy.jpg'
 }
 </script>
 

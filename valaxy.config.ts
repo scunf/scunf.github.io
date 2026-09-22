@@ -4,6 +4,7 @@ import { defineValaxyConfig } from 'valaxy'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
+  'i-ri-github-line',
 ]
 
 /**
@@ -51,6 +52,15 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       since: 2016,
+      // 覆盖主题默认的云朵图标（默认指向原作者的 sponsors 页面）
+      icon: {
+        enable: true,
+        name: 'i-ri-github-line',
+        animated: true,
+        color: 'var(--va-c-primary)',
+        url: 'https://github.com/wusi321',
+        title: 'wusi321',
+      },
       beian: {
         enable: true,
         icp: '苏ICP备17038157号',
