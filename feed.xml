@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SCuNF</title>
+        <link>https://scunf.github.io/</link>
+        <description>SCuNF的小站</description>
+        <lastBuildDate>Wed, 23 Sep 2026 02:46:38 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>SCuNF</title>
+            <url>https://scunf.github.io/aboutmy.jpg</url>
+            <link>https://scunf.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © SCuNF</copyright>
+        <atom:link href="https://scunf.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[刘存富的个人作品集]]></title>
+            <link>https://scunf.github.io/posts/liucunfu-portfolio</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/liucunfu-portfolio</guid>
+            <pubDate>Wed, 23 Sep 2026 09:10:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我是<strong>刘存富</strong>（GitHub：<a href="https://github.com/wusi321">wusi321</a>），物联网工程本科生，方向是<strong>机器人系统 / 嵌入式开发 / 具身智能</strong>。本文是我为*</p>
+<br/><p>访问 <a href="https://scunf.github.io/posts/liucunfu-portfolio" target="_blank">https://scunf.github.io/posts/liucunfu-portfolio</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[aupt包管理器]]></title>
+            <link>https://scunf.github.io/posts/aupt-package-manager</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/aupt-package-manager</guid>
+            <pubDate>Sun, 17 May 2026 17:13:21 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>什么是 AUPT？</h2>
+<p>AUPT（Advanced Unified Package Tool）是一个统一的 Linux 包管理调度工具。它的核心目标是：</p>
+<blockquote>
+<p>**统一命令入口 + 自动识别发行</p>
+</blockquote>
+<br/><p>访问 <a href="https://scunf.github.io/posts/aupt-package-manager" target="_blank">https://scunf.github.io/posts/aupt-package-manager</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[第一篇文章]]></title>
+            <link>https://scunf.github.io/posts/newbowl</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/newbowl</guid>
+            <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>文章</h2>
+<br/><p>访问 <a href="https://scunf.github.io/posts/newbowl" target="_blank">https://scunf.github.io/posts/newbowl</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[第二次培训]]></title>
+            <link>https://scunf.github.io/posts/ubuntu-ros-training</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/ubuntu-ros-training</guid>
+            <pubDate>Tue, 27 Jan 2026 12:40:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>第二次寒假培训</h2>
+<hr>
+<h3>目录</h3>
+<ul>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li><a href="#%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E6%A6%82%E5%BF%B5">一些需要了解的概念</a></li>
+<li><a href="#ubuntu">Ubuntu</a></li>
+<li>[ros](</li>
+</ul>
+<br/><p>访问 <a href="https://scunf.github.io/posts/ubuntu-ros-training" target="_blank">https://scunf.github.io/posts/ubuntu-ros-training</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[个人博客]]></title>
+            <link>https://scunf.github.io/posts/hexo-blog-guide</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/hexo-blog-guide</guid>
+            <pubDate>Fri, 16 Jan 2026 16:27:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>基于 <strong>HEXO</strong> 的个人博客搭建教程</h2>
+<h3>目录</h3>
+<ul>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0">参考文章</a></li>
+<li><a href="#%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5">友情链接</a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">基础环境配置</a></li>
+<li>[</li>
+</ul>
+<br/><p>访问 <a href="https://scunf.github.io/posts/hexo-blog-guide" target="_blank">https://scunf.github.io/posts/hexo-blog-guide</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[基于ollama的本地AIAgent]]></title>
+            <link>https://scunf.github.io/posts/local-ai-agent-with-ollama</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/local-ai-agent-with-ollama</guid>
+            <pubDate>Tue, 06 Jan 2026 02:00:24 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>基于Ollama的本地Agent</h2>
+<hr>
+<p>一直觉得<strong>Trae, Cursor, Claude</strong>等软件非常不错,但是又想搞个本地的,调用本地部署的模型无限用,我看到了Ollama,以及py</p>
+<br/><p>访问 <a href="https://scunf.github.io/posts/local-ai-agent-with-ollama" target="_blank">https://scunf.github.io/posts/local-ai-agent-with-ollama</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[markdown]]></title>
+            <link>https://scunf.github.io/posts/markdown-guide</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/markdown-guide</guid>
+            <pubDate>Mon, 05 Jan 2026 01:22:33 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>下面是在 Astro 中编写 Markdown 内容时，可以使用的一些基本 Markdown 语法示例。</h2>
+<h2>标题</h2>
+<p>你应该避免在 Markdown 正文中重复创建文章标题，因为文章标题会</p>
+<br/><p>访问 <a href="https://scunf.github.io/posts/markdown-guide" target="_blank">https://scunf.github.io/posts/markdown-guide</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://scunf.github.io/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://scunf.github.io/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://scunf.github.io/posts/hello-valaxy" target="_blank">https://scunf.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (SCuNF)</author>
+        </item>
+    </channel>
+</rss>
