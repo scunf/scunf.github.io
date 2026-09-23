@@ -40,13 +40,6 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 | **博客** | [scunf.github.io](https://scunf.github.io) |
 | **简历** | [📄 下载 PDF 简历](/files/liucunfu-resume.pdf) |
 
-**竞赛荣誉**：
-
-- **全国一等奖** —— 2026 中国大学生机器人大赛 ROBOCON（足式）
-- **全国二等奖** —— 2026 中国机器人大赛暨 RoboCup 世界杯中国赛
-- **省级二等奖** —— 2026 全国大学生电子设计竞赛
-- **全国三等奖** —— 2026 中国机器人大赛暨 Robotar
-
 ---
 
 ## 目录与速览
@@ -100,16 +93,16 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 从 8DOF 到 16DOF 的升级过程中，我参与了多轮结构方案迭代：把电机内嵌进腿部结构以缩短力臂、用同步带轮传递轮端动力、重新设计轮组与小腿，并在总装配阶段统一坐标系与惯量参数。
 
-<p align="center">
-  <img src="/images/portfolio/16dof-leg-embedded-v1.jpg" alt="内嵌电机式轮腿初版设计" width="45%">
-  <img src="/images/portfolio/16dof-calf-embedded.jpg" alt="内嵌电机式轮足小腿" width="45%">
-</p>
+<div style="display:flex;gap:12px;justify-content:center;align-items:flex-start">
+  <img src="/images/portfolio/16dof-leg-embedded-v1.jpg" alt="内嵌电机式轮腿初版设计" style="width:45%;max-width:45%;margin:0">
+  <img src="/images/portfolio/16dof-calf-embedded.jpg" alt="内嵌电机式轮足小腿" style="width:45%;max-width:45%;margin:0">
+</div>
 <p align="center"><em>左：内嵌电机式轮腿初版设计；右：内嵌电机式轮足小腿</em></p>
 
-<p align="center">
-  <img src="/images/portfolio/16dof-timing-pulley.jpg" alt="同步带轮传动设计" width="45%">
-  <img src="/images/portfolio/16dof-wheel-design.jpg" alt="轮足轮组设计" width="45%">
-</p>
+<div style="display:flex;gap:12px;justify-content:center;align-items:flex-start">
+  <img src="/images/portfolio/16dof-timing-pulley.jpg" alt="同步带轮传动设计" style="width:45%;max-width:45%;margin:0">
+  <img src="/images/portfolio/16dof-wheel-design.jpg" alt="轮足轮组设计" style="width:45%;max-width:45%;margin:0">
+</div>
 <p align="center"><em>左：同步带轮传动设计；右：轮足轮组设计</em></p>
 
 ### 转接件设计
@@ -119,13 +112,7 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 <p align="center">
   <img src="/images/portfolio/16dof-adapter.jpg" alt="转接件整体" width="52%">
 </p>
-<p align="center"><em>转接件整体轮廓</em></p>
-
-<p align="center">
-  <img src="/images/portfolio/16dof-adapter-detail.jpg" alt="转接件轮廓与减重槽" width="40%">
-  <img src="/images/portfolio/16dof-adapter-hub.jpg" alt="转接件中心轮毂与螺栓分布" width="40%">
-</p>
-<p align="center"><em>左：轮廓、减重槽与安装耳；右：中心轮毂、螺栓分布与让位设计</em></p>
+<p align="center"><em>转接件整体轮廓：安装孔位、走线避让与减重槽设计</em></p>
 
 ### URDF 导出与惯量配置
 
@@ -138,10 +125,10 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 按分工，我负责对接 Odin1 的视觉感知、里程计与 IMU 数据，并完成比赛场地的环境建图与地图导出；下图是比赛场地雷达点云处理与导航路径规划的实际结果。
 
-<p align="center">
-  <img src="/images/portfolio/16dof-odin-pointcloud-1.jpg" alt="Odin1 雷达点云处理" width="45%">
-  <img src="/images/portfolio/16dof-odin-pointcloud-2.jpg" alt="Odin1 比赛场地点云处理" width="45%">
-</p>
+<div style="display:flex;gap:12px;justify-content:center;align-items:flex-start">
+  <img src="/images/portfolio/16dof-odin-pointcloud-1.jpg" alt="Odin1 雷达点云处理" style="width:45%;max-width:45%;margin:0">
+  <img src="/images/portfolio/16dof-odin-pointcloud-2.jpg" alt="Odin1 比赛场地点云处理" style="width:45%;max-width:45%;margin:0">
+</div>
 <p align="center"><em>Odin1 雷达点云处理与比赛场地建图结果</em></p>
 
 <p align="center">
@@ -175,10 +162,10 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ### 训练过程记录
 
-<p align="center">
-  <img src="/images/portfolio/16dof-rl-training-1.jpg" alt="16DOF 强化学习训练过程" width="45%">
-  <img src="/images/portfolio/16dof-rl-training-2.jpg" alt="16DOF 强化学习训练过程" width="45%">
-</p>
+<div style="display:flex;gap:12px;justify-content:center;align-items:flex-start">
+  <img src="/images/portfolio/16dof-rl-training-1.jpg" alt="16DOF 强化学习训练过程" style="width:45%;max-width:45%;margin:0">
+  <img src="/images/portfolio/16dof-rl-training-2.jpg" alt="16DOF 强化学习训练过程" style="width:45%;max-width:45%;margin:0">
+</div>
 <p align="center"><em>16DOF 轮足强化学习训练过程与策略在仿真中的表现</em></p>
 
 **安全与边界**：文档中明确写了仿真通过不等于可以上电，真机调试必须架空机器人并确认急停链路，并列出迁移到其他机器人时必须重新核对的项（关节顺序、动作尺度、观测维度、执行器限幅等）。
