@@ -1,23 +1,51 @@
 ---
 title: 刘存富的个人作品集
 date: 2026-09-23 09:10:00
-updated: 2026-09-23 09:10:00
+updated: 2026-09-23 12:30:00
 categories: 个人文章
 tags:
   - 作品集
-  - 求职
+  - 极客营
   - 轮足机器人
   - 强化学习
   - ROS 2
   - 嵌入式
-excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品集：16DOF 四轮足全栈开源、16DOF 强化学习与 Sim2Sim、8DOF 双轮腿 RL、6DOF 全栈考核设计、Linux 包管理调度工具、电赛 H 题车载平衡滚球系统与逆向工程项目。
+excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF 四轮足全栈开源、16DOF 强化学习与 Sim2Sim、8DOF 双轮腿 RL、6DOF 全栈考核设计、Linux 包管理调度工具、电赛 H 题车载平衡滚球系统与逆向工程项目。
 ---
 
-我是**刘存富**（GitHub：[wusi321](https://github.com/wusi321)），机器人方向的开发者，工作覆盖**机械设计 / 电控 / 运动控制 / 强化学习 / 上位机与部署**这条完整链路。
+我是**刘存富**（GitHub：[wusi321](https://github.com/wusi321)），物联网工程本科生，方向是**机器人系统 / 嵌入式开发 / 具身智能**。本文是我为**深圳科创学院极客营入营面试**整理的个人作品集。
 
-这份作品集按时间与难度整理了我参与和主导的 7 个项目：从**轮足机器人从机械到真机部署的全栈开源**，到**强化学习训练与 Sim2Sim 验证工程**，再到**全栈考核体系设计**、**Linux 系统工具**、**电赛完整作品**与**逆向工程**。每个项目都配有可直接访问的仓库、图纸或实物图、以及可复现的运行入口。
+作品集按时间与难度整理了 7 个项目：从**轮足机器人从机械到真机部署的全栈开源**，到**强化学习训练与 Sim2Sim 验证工程**，再到**全栈考核体系设计**、**Linux 系统工具**、**电赛完整作品**与**逆向工程**。每个项目都配有可直接访问的仓库、图纸或实物图、以及可复现的运行入口。
 
-> 阅读建议：先看下方 30 秒速览表，再挑你关心的方向进入对应章节；每个章节都给出了**仓库跳转链接**。
+> 阅读建议：先看下方个人信息与 30 秒速览表，再挑你关心的方向进入对应章节；每个章节都给出了**仓库跳转链接**。
+
+---
+
+<a id="me"></a>
+
+## 个人信息
+
+<p align="center">
+  <img src="/images/portfolio/liucunfu-id-photo.jpg" alt="刘存富" width="118">
+</p>
+
+|  |  |
+|---|---|
+| **姓名** | 刘存富 |
+| **学校 / 学院** | 山东华宇工学院 · 信息工程学院 |
+| **专业 / 年级** | 物联网工程 · 2024 级本科在读（大三） |
+| **技术方向** | 机器人系统 · 嵌入式开发 · 具身智能 |
+| **邮箱** | [19589917063@163.com](mailto:19589917063@163.com) |
+| **GitHub** | [github.com/wusi321](https://github.com/wusi321) |
+| **博客** | [scunf.github.io](https://scunf.github.io) |
+| **简历** | [📄 下载 PDF 简历](/files/liucunfu-resume.pdf) |
+
+**竞赛荣誉**：
+
+- **全国一等奖** —— 2026 中国大学生机器人大赛 ROBOCON（足式）
+- **全国二等奖** —— 2026 中国机器人大赛暨 RoboCup 世界杯中国赛
+- **省级二等奖** —— 2026 全国大学生电子设计竞赛
+- **全国三等奖** —— 2026 中国机器人大赛暨 Robotar
 
 ---
 
@@ -54,28 +82,76 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **开源程度**：仓库完整开源了**机械（SolidWorks 2026 源文件 + STEP）、硬件（自研电路 / BOM / 接线）、固件、软件（训练 / 仿真 / Sim2Real / 工具）、媒体资产、装配与部署文档**，并给出了整机装配入口、安全说明与版本状态（最终整理版 `v1.1.1`，MIT 协议）。这也是我们希望对起步较晚的 Robocon 队伍提供的参考。
 
-### 机械与实机展示
+**完赛演示视频**（仓库内文件，点击查看）：[`06_assets/videos/sim2real.mp4`](https://github.com/zeitvex/RC_WheelLeg/blob/main/06_assets/videos/sim2real.mp4) —— 完赛效果演示，1280×720 横屏、约 1 分 20 秒，与比赛实际时长接近；另有早期真机测试记录 [`early_sim2real.mp4`](https://github.com/zeitvex/RC_WheelLeg/blob/main/06_assets/videos/early_sim2real.mp4)（约 41 秒）。
 
-![16DOF 四轮足 SolidWorks 总装](/images/portfolio/16dof-assembly-sw.png)
+### 整机总装与实机
 
-![16DOF 四轮足实机](/images/portfolio/16dof-real.png)
+<p align="center">
+  <img src="/images/portfolio/16dof-assembly-sw.jpg" alt="16DOF 四轮足 SolidWorks 总装" width="76%">
+</p>
+<p align="center"><em>16DOF 轮足整机 SolidWorks 总装（源文件与 STEP 已随仓库开源）</em></p>
 
-### 转接件设计（我为该平台参与设计的结构件之一）
+<p align="center">
+  <img src="/images/portfolio/16dof-real.jpg" alt="16DOF 四轮足实机" width="34%">
+</p>
+<p align="center"><em>16DOF 实机：Jetson Orin Nano 8G 上位机 + 16 个 RS02 执行器</em></p>
+
+### 机械结构迭代设计
+
+从 8DOF 到 16DOF 的升级过程中，我参与了多轮结构方案迭代：把电机内嵌进腿部结构以缩短力臂、用同步带轮传递轮端动力、重新设计轮组与小腿，并在总装配阶段统一坐标系与惯量参数。
+
+<p align="center">
+  <img src="/images/portfolio/16dof-leg-embedded-v1.jpg" alt="内嵌电机式轮腿初版设计" width="45%">
+  <img src="/images/portfolio/16dof-calf-embedded.jpg" alt="内嵌电机式轮足小腿" width="45%">
+</p>
+<p align="center"><em>左：内嵌电机式轮腿初版设计；右：内嵌电机式轮足小腿</em></p>
+
+<p align="center">
+  <img src="/images/portfolio/16dof-timing-pulley.jpg" alt="同步带轮传动设计" width="45%">
+  <img src="/images/portfolio/16dof-wheel-design.jpg" alt="轮足轮组设计" width="45%">
+</p>
+<p align="center"><em>左：同步带轮传动设计；右：轮足轮组设计</em></p>
+
+### 转接件设计
 
 转接件是连接腿部关节与轮组 / 机身的过渡结构件，需要在**有限空间内同时满足安装孔位、走线避让、减重与刚度**四方面约束。
 
-![转接件整体](/images/portfolio/16dof-adapter.png)
+<p align="center">
+  <img src="/images/portfolio/16dof-adapter.jpg" alt="转接件整体" width="52%">
+</p>
+<p align="center"><em>转接件整体轮廓</em></p>
 
 <p align="center">
-  <img src="/images/portfolio/16dof-adapter-detail.png" alt="转接件细节：减重槽与安装耳" width="48%">
-  <img src="/images/portfolio/16dof-adapter-hub.png" alt="转接件中心轮毂与螺栓分布" width="48%">
+  <img src="/images/portfolio/16dof-adapter-detail.jpg" alt="转接件轮廓与减重槽" width="40%">
+  <img src="/images/portfolio/16dof-adapter-hub.jpg" alt="转接件中心轮毂与螺栓分布" width="40%">
 </p>
+<p align="center"><em>左：轮廓、减重槽与安装耳；右：中心轮毂、螺栓分布与让位设计</em></p>
 
-<p align="center"><em>左：整体轮廓与减重槽 / 安装耳；右：中心轮毂、螺栓分布与让位设计</em></p>
+### URDF 导出与惯量配置
+
+<p align="center">
+  <img src="/images/portfolio/16dof-urdf-inertia.jpg" alt="URDF 与惯量参数配置" width="64%">
+</p>
+<p align="center"><em>总装配后导出 URDF，并逐连杆核对质量、惯量与关节轴向，保证模型与仿真一致</em></p>
+
+### Odin1 视觉感知、点云与建图
+
+按分工，我负责对接 Odin1 的视觉感知、里程计与 IMU 数据，并完成比赛场地的环境建图与地图导出；下图是比赛场地雷达点云处理与导航路径规划的实际结果。
+
+<p align="center">
+  <img src="/images/portfolio/16dof-odin-pointcloud-1.jpg" alt="Odin1 雷达点云处理" width="45%">
+  <img src="/images/portfolio/16dof-odin-pointcloud-2.jpg" alt="Odin1 比赛场地点云处理" width="45%">
+</p>
+<p align="center"><em>Odin1 雷达点云处理与比赛场地建图结果</em></p>
+
+<p align="center">
+  <img src="/images/portfolio/16dof-navigation.jpg" alt="比赛导航路径规划" width="64%">
+</p>
+<p align="center"><em>基于建图结果的比赛导航路径规划</em></p>
 
 **可验证性**：仓库同时提供 CAD 源文件、STEP、URDF、仿真工程与真机部署代码，任何人都能沿着同一条路径复现「建模 → 机器人描述 → 仿真验证 → 真机部署」。
 
-**仓库入口**：<https://github.com/zeitvex/RC_WheelLeg>（队友与我的分工、安全须知、目录结构均在 README 中说明）
+**仓库入口**：[https://github.com/zeitvex/RC_WheelLeg](https://github.com/zeitvex/RC_WheelLeg)（队友与我的分工、安全须知、目录结构均在 README 中说明）
 
 ---
 
@@ -97,9 +173,17 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **鲁棒性考虑**：训练中引入摩擦、质心、编码器偏置、执行器刚度/阻尼、力矩上限、负载质量、推撞与持续外力等**随机化**，目的是缩小仿真到实机的差距；同时对腿部位置动作与轮部速度动作做**低通滤波与延迟建模**。
 
+### 训练过程记录
+
+<p align="center">
+  <img src="/images/portfolio/16dof-rl-training-1.jpg" alt="16DOF 强化学习训练过程" width="45%">
+  <img src="/images/portfolio/16dof-rl-training-2.jpg" alt="16DOF 强化学习训练过程" width="45%">
+</p>
+<p align="center"><em>16DOF 轮足强化学习训练过程与策略在仿真中的表现</em></p>
+
 **安全与边界**：文档中明确写了仿真通过不等于可以上电，真机调试必须架空机器人并确认急停链路，并列出迁移到其他机器人时必须重新核对的项（关节顺序、动作尺度、观测维度、执行器限幅等）。
 
-**仓库入口**：<https://github.com/wusi321/RC_Legged_Training_Simulation>
+**仓库入口**：[https://github.com/wusi321/RC_Legged_Training_Simulation](https://github.com/wusi321/RC_Legged_Training_Simulation)
 
 ---
 
@@ -120,23 +204,33 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 - **随机化**：推扰、摩擦、质量、执行器与**延迟随机化**，速度与关节速度设置上限；
 - **工程链路**：SolidWorks 导出的 URDF 经 `urdf_to_mjcf.py` 规范化关节命名并转换为训练用 MJCF；训练脚本支持分段验收（先 5 iteration smoke test，再启动 `12000 iter × 2048 env` 的长训练），使用 **W&B**（项目名 `wheelleg-rl`）记录，服务器侧用 `uv` 管理环境，并提供 **Windows / Ubuntu 双平台**入口。
 
+**训练数据记录（Weights & Biases）**：训练曲线与指标记录在 W&B 项目中 —— [wandb.ai/liucunfu2005-/mjlab](https://wandb.ai/liucunfu2005-/mjlab/workspace?nw=nwuserliucunfu2005)（若提示需要登录，可通过下方邮箱向我索取导出的曲线图）。
+
 **为什么这样设计**：训练最容易失控的地方是"改了参数却说不清改了什么"。因此我把课程、随机化、奖励和观测拆成可配置项，并固定记录一组指标（站立高度/姿态、各轴速度跟踪、轮速跟踪、动作变化率、关节速度越界率、摔倒率、恢复成功率与耗时），让每次训练都可对比、可复盘。
 
-### 训练效果
+### 移动训练效果（内嵌预览）
 
-下面是该工程训练过程中录制的**移动训练视频**（原视频 2320×1440 / 60 fps / 56 秒，为保证网页加载速度此处为压缩预览版；完整视频可在仓库或交流群中获取）：
+下面是该工程训练过程中录制的**移动训练视频**（原视频 2320×1440 / 60 fps / 56 秒；此处为压缩预览版，便于网页直接播放）：
 
 <video src="/videos/8dof-rl-movement-preview.mp4" poster="/images/portfolio/8dof-video-poster.jpg" controls preload="metadata" style="width:100%;border-radius:8px"></video>
 
+<p align="center"><em>8DOF 双轮腿强化学习策略移动训练过程</em></p>
+
+> 原片体积约 447 MB，未随仓库托管；如需原始素材，可通过邮箱或文末的开源交流群联系我。
+
 ### 机械与机器人描述
 
-![8DOF 双轮腿总装](/images/portfolio/8dof-assembly.png)
+<p align="center">
+  <img src="/images/portfolio/8dof-assembly.jpg" alt="8DOF 双轮腿总装" width="52%">
+</p>
+<p align="center"><em>8DOF 双轮腿总装</em></p>
 
-![8DOF URDF 导出验证（坐标系检查）](/images/portfolio/8dof-urdf.png)
-
+<p align="center">
+  <img src="/images/portfolio/8dof-urdf.jpg" alt="8DOF URDF 导出验证" width="52%">
+</p>
 <p align="center"><em>URDF 导出后在 CAD 中核对各连杆坐标系与关节轴向，确保模型与仿真一致</em></p>
 
-**仓库入口**：<https://github.com/wusi321/8DOF-WheelLeg-RL>
+**仓库入口**：[https://github.com/wusi321/8DOF-WheelLeg-RL](https://github.com/wusi321/8DOF-WheelLeg-RL)
 
 ---
 
@@ -161,7 +255,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **评分与协作规范**：明确列出严重扣分项（`git add .` 一步 `final` 提交、未注明的他人代码、CAD 与 URDF 不一致、用 Python 替代核心 C++ 控制器、缺少 Sim2Sim 或缺少模块开发历史）与加分项（自动部署、自动测试、Docker、CI/CD、统一仿真/实机接口）；提交采用 `submission/<姓名>/<版本>` 分支 + Pull Request 到 `develop` 的流程，保留真实 Commit 历史。
 
-**仓库入口**：<https://github.com/wusi321/WheelLeg-FullStack-Challenge>
+**仓库入口**：[https://github.com/wusi321/WheelLeg-FullStack-Challenge](https://github.com/wusi321/WheelLeg-FullStack-Challenge)
 
 ---
 
@@ -183,7 +277,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **兼容性验证**：已适配并测试 **Debian/Ubuntu** 与 **CentOS/RHEL**（仓库含 Ubuntu 22.04 / Python 3.10 与 CentOS 8.9 / Python 3.12 的实测截图），Fedora / Arch / openSUSE 已按同一抽象层支持、持续补充测试。
 
-**仓库入口**：<https://github.com/wusi321/aupt>
+**仓库入口**：[https://github.com/wusi321/aupt](https://github.com/wusi321/aupt)
 
 ---
 
@@ -206,7 +300,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **调试方法论**：仓库给出了严格的自下而上的调试顺序——先单独验证轮速与编码器方向、再验证 IMU 与灰度顺序、然后固定相机与管道完成位置标定、验证视觉帧 CRC 与超时回中、最后静态调位置闭环再做整车联调，并用调参台保存每次有效实验的遥测记录。设计报告同时提供 **LaTeX 源码**并附作品测试记录与评分表。
 
-**仓库入口**：<https://github.com/wusi321/2026-H-TI>
+**仓库入口**：[https://github.com/wusi321/2026-H-TI](https://github.com/wusi321/2026-H-TI)
 
 ---
 
@@ -226,7 +320,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 **这次实践的价值**：它把"读懂别人的代码"变成了可交付的工程能力——从二进制产物中还原协议与架构，再用规范的模块划分重新实现，这个能力直接迁移到实际工作中的遗留系统维护与协议对接。
 
-**仓库入口**：<https://github.com/wusi321/ExamGuard>
+**仓库入口**：[https://github.com/wusi321/ExamGuard](https://github.com/wusi321/ExamGuard)
 
 ---
 
@@ -239,8 +333,8 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 | **机械与建模** | SolidWorks（整机装配、零件设计、减重与刚度权衡）、STEP/CAD 输出、URDF/Xacro 导出与坐标系核对、CNC 可制造性对接 |
 | **仿真与训练** | MuJoCo / MJCF、**mjlab**、**PPO（RSL-RL 风格）**、课程与随机化设计、Sim2Sim 策略回放、W&B 实验记录 |
 | **控制与部署** | 强化学习策略真机部署（Sim2Real）、**ROS 2 + C++**（50 Hz 策略推理 + 200 Hz CAN 电机循环）、Nav2、TensorRT/ONNX、Jetson Orin Nano |
-| **嵌入式与电控** | MSPM0G3507 / MaixCAM、CAN 总线、IMU 与里程计接入、总线舵机、串口二进制协议（CRC 校验）、灰度循迹、PID 与位置闭环 |
-| **软件工程** | Python（CLI 工具、插件化架构、打包与安装脚本）、C++、Linux 环境与部署、Git 分支与 PR 流程、Docker / CI |
+| **嵌入式与电控** | STM32 / MSPM0G3507 / MaixCAM / ESP32、CAN、UART、I2C、SPI、IMU 与里程计接入、总线舵机、PID 与位置闭环 |
+| **软件工程** | Python（CLI 工具、插件化架构、打包与安装脚本）、C/C++、Linux 环境与部署、Git 分支与 PR 流程、Docker / CI |
 | **其他** | 视觉测量与标定、Web 工具（Web Serial 调参台）、逆向工程（PyInstaller 解包与协议还原）、LaTeX 技术文档 |
 
 ---
@@ -249,6 +343,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 ## 关于这份作品集
 
+- **用途**：本文为**深圳科创学院极客营入营面试**整理的个人能力展示材料。
 - **贡献边界**：项目一（16DOF 轮足全开源）与项目二属于**团队开源成果**，我在其中的角色与具体职责已在对应章节明确标注；项目三至项目七为**我个人主导开发**。
 - **开源与署名**：上述仓库除团队项目外均采用 MIT 协议；引用第三方依赖、模型与素材时遵循其各自许可证。
 - **可验证性**：每个仓库都提供 README、目录说明与可运行入口（安装、训练、回放、构建），论文式结论不写、可复现路径必给。
@@ -261,6 +356,7 @@ excerpt: 面向机器人运控 / 强化学习 / 嵌入式岗位的个人作品�
 
 - **GitHub**：[github.com/wusi321](https://github.com/wusi321)
 - **邮箱**：[19589917063@163.com](mailto:19589917063@163.com)
+- **简历**：[📄 下载 PDF 简历](/files/liucunfu-resume.pdf)
 - **QQ 开源交流群**：767195310（也欢迎在群里交流轮足机器人、强化学习与部署问题）
 
-如果你正在招聘**机器人运动控制 / 强化学习 / 嵌入式软件 / 机器人全栈**方向的岗位，欢迎通过以上任意方式联系我，我可以提供更详细的实验记录、训练曲线与真机部署细节。
+以上是我在机器人方向的主要工作，欢迎通过 GitHub、邮箱或交流群与我交流，也很期待在极客营和大家一起做更硬核的东西。

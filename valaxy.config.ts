@@ -5,6 +5,7 @@ import { defineValaxyConfig } from 'valaxy'
 const safelist = [
   'i-ri-home-line',
   'i-ri-github-line',
+  'i-ri-user-star-line',
 ]
 
 /**
@@ -22,6 +23,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     nav: [
     { text: 'menu.posts', link: '/posts/', icon: 'i-ri-article-line' },
+    { text: '作品集', link: '/posts/liucunfu-portfolio', icon: 'i-ri-user-star-line' },
     { text: '项目列表', link: '/project', icon: 'i-ri-gallery-view' },
     { text: '相册', link: '/albums', icon: 'i-ri-image-line' },
     { text: '友情链接', link: '/links/', icon: 'i-ri-link' },
