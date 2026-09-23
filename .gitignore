@@ -30,3 +30,6 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+
+# 个人作品集原始素材暂存目录（含 400MB+ 原始视频，勿提交；站点用图/预览视频已复制到 public/images/portfolio 与 public/videos）
+2026.24.10线上准备/

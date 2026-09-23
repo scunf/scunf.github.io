@@ -145,6 +145,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/liucunfu-portfolio': RouteRecordInfo<
+      '/posts/liucunfu-portfolio',
+      '/posts/liucunfu-portfolio',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/local-ai-agent-with-ollama': RouteRecordInfo<
       '/posts/local-ai-agent-with-ollama',
       '/posts/local-ai-agent-with-ollama',
@@ -418,6 +425,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hexo-blog-guide.md': {
       routes:
         | '/posts/hexo-blog-guide'
+      views:
+        | never
+    }
+    'pages/posts/liucunfu-portfolio.md': {
+      routes:
+        | '/posts/liucunfu-portfolio'
       views:
         | never
     }
