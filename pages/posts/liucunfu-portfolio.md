@@ -1,7 +1,7 @@
 ---
-title: 刘存富的个人作品集
+title: 个人作品集
 date: 2026-09-23 09:10:00
-updated: 2026-09-23 12:30:00
+updated: 2026-10-28 15:45:00
 categories: 个人文章
 tags:
   - 作品集
@@ -10,35 +10,28 @@ tags:
   - 强化学习
   - ROS 2
   - 嵌入式
-excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF 四轮足全栈开源、16DOF 强化学习与 Sim2Sim、8DOF 双轮腿 RL、6DOF 全栈考核设计、Linux 包管理调度工具、电赛 H 题车载平衡滚球系统与逆向工程项目。
+excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF 四轮足全栈开源、16DOF 强化学习与 Sim2Sim、16DOF go2w 轮足强化学习（梅花桩任务）、8DOF 双轮腿 RL、6DOF 全栈考核设计、Linux 包管理调度工具、电赛 H 题车载平衡滚球系统与逆向工程项目。
 ---
 
-我是**刘存富**（GitHub：[wusi321](https://github.com/wusi321)），物联网工程本科生，方向是**机器人系统 / 嵌入式开发 / 具身智能**。本文是我为**深圳科创学院极客营入营面试**整理的个人作品集。
+机器人方向的开发者，工作覆盖**机械设计 / 电控 / 运动控制 / 强化学习 / 上位机与部署**这条完整链路。本文是我为**深圳科创学院极客营入营面试**整理的个人作品集。
 
-作品集按时间与难度整理了 7 个项目：从**轮足机器人从机械到真机部署的全栈开源**，到**强化学习训练与 Sim2Sim 验证工程**，再到**全栈考核体系设计**、**Linux 系统工具**、**电赛完整作品**与**逆向工程**。每个项目都配有可直接访问的仓库、图纸或实物图、以及可复现的运行入口。
+作品集按时间与难度整理了 8 个项目：从**轮足机器人从机械到真机部署的全栈开源**，到**强化学习训练、Sim2Sim 验证与运动控制工程**，再到**全栈考核体系设计**、**Linux 系统工具**、**电赛完整作品**与**逆向工程**。每个项目都配有可直接访问的仓库、图纸或实物图、以及可复现的运行入口。
 
-> 阅读建议：先看下方个人信息与 30 秒速览表，再挑你关心的方向进入对应章节；每个章节都给出了**仓库跳转链接**。
+> 阅读建议：先看下方 30 秒速览表，再挑你关心的方向进入对应章节；每个章节都给出了**仓库跳转链接**。
 
 ---
 
 <a id="me"></a>
 
-## 个人信息
-
-<p align="center">
-  <img src="/images/portfolio/liucunfu-id-photo.jpg" alt="刘存富" width="118">
-</p>
+## 联系方式
 
 |  |  |
 |---|---|
-| **姓名** | 刘存富 |
-| **学校 / 学院** | 山东华宇工学院 · 信息工程学院 |
-| **专业 / 年级** | 物联网工程 · 2024 级本科在读（大三） |
 | **技术方向** | 机器人系统 · 嵌入式开发 · 具身智能 |
 | **邮箱** | [19589917063@163.com](mailto:19589917063@163.com) |
 | **GitHub** | [github.com/wusi321](https://github.com/wusi321) |
 | **博客** | [scunf.github.io](https://scunf.github.io) |
-| **简历** | [📄 下载 PDF 简历](/files/liucunfu-resume.pdf) |
+| **简历** | 如需简历，请[邮件联系本人获取](mailto:19589917063@163.com?subject=%E7%B4%A2%E5%8F%96%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86) |
 
 ---
 
@@ -48,11 +41,12 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 |:-:|---|---|---|---|---|
 | 1 | [16DOF 四轮足机器人全开源](#project-1) | 电控 / 机械 | SolidWorks、URDF、MuJoCo、Sim2Real | RC2026 全国一等奖（第 7 名，前 5%） | [zeitvex/RC_WheelLeg](https://github.com/zeitvex/RC_WheelLeg) |
 | 2 | [16DOF 轮足强化学习与 Sim2Sim](#project-2) | 训练 / 仿真 / 验证 | mjlab、PPO、MJCF、MuJoCo | 3 类任务配置化训练 + 策略回放链路 | [wusi321/RC_Legged_Training_Simulation](https://github.com/wusi321/RC_Legged_Training_Simulation) |
-| 3 | [8DOF 双轮腿强化学习](#project-3) | 独立开发 | mjlab、PPO、W&B、URDF→MJCF | 平地 / 粗糙 / 恢复三类课程 + 随机化 | [wusi321/8DOF-WheelLeg-RL](https://github.com/wusi321/8DOF-WheelLeg-RL) |
-| 4 | [6DOF 双轮腿全栈考核设计](#project-4) | 独立设计 | CAD、ROS 2、C++、CAN、Vision | 150 分 12 模块的可复现工程闭环 | [wusi321/WheelLeg-FullStack-Challenge](https://github.com/wusi321/WheelLeg-FullStack-Challenge) |
-| 5 | [多发行版包管理器调度工具](#project-5) | 独立开发 | Python、插件化架构、CLI | 一套命令统一 apt / pacman / dnf / snap | [wusi321/aupt](https://github.com/wusi321/aupt) |
-| 6 | [电赛 H 题车载平衡滚球系统](#project-6) | 独立开发 | MaixCAM、MSPM0G3507、Web Serial | 视觉 + 主控 + 计时器 + 双 Web 台全链路 | [wusi321/2026-H-TI](https://github.com/wusi321/2026-H-TI) |
-| 7 | [考试反作弊系统（逆向工程）](#project-7) | 独立开发 | PyInstaller 逆向、TCP/UDP、Win32 API | 从打包产物还原并重构完整双端系统 | [wusi321/ExamGuard](https://github.com/wusi321/ExamGuard) |
+| 3 | [16DOF 轮足强化学习工程（go2w）](#project-3) | 独立开发 | mjlab、PPO、MuJoCo-Warp、课程设计 | 自研梅花桩任务 + 训练退化排障 + sim2real 感知接口 | [wusi321/16DOF-WheelLeg-RL](https://github.com/wusi321/16DOF-WheelLeg-RL) |
+| 4 | [8DOF 双轮腿强化学习](#project-4) | 独立开发 | mjlab、PPO、W&B、URDF→MJCF | 平地 / 粗糙 / 恢复三类课程 + 随机化 | [wusi321/8DOF-WheelLeg-RL](https://github.com/wusi321/8DOF-WheelLeg-RL) |
+| 5 | [6DOF 双轮腿全栈考核设计](#project-5) | 独立设计 | CAD、ROS 2、C++、CAN、Vision | 150 分 12 模块的可复现工程闭环 | [wusi321/WheelLeg-FullStack-Challenge](https://github.com/wusi321/WheelLeg-FullStack-Challenge) |
+| 6 | [多发行版包管理器调度工具](#project-6) | 独立开发 | Python、插件化架构、CLI | 一套命令统一 apt / pacman / dnf / snap | [wusi321/aupt](https://github.com/wusi321/aupt) |
+| 7 | [电赛 H 题车载平衡滚球系统](#project-7) | 独立开发 | MaixCAM、MSPM0G3507、Web Serial | 视觉 + 主控 + 计时器 + 双 Web 台全链路 | [wusi321/2026-H-TI](https://github.com/wusi321/2026-H-TI) |
+| 8 | [考试反作弊系统（逆向工程）](#project-8) | 独立开发 | PyInstaller 逆向、TCP/UDP、Win32 API | 从打包产物还原并重构完整双端系统 | [wusi321/ExamGuard](https://github.com/wusi321/ExamGuard) |
 
 ---
 
@@ -60,7 +54,7 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ## 一、[16DOF 四轮足机器人全开源](https://github.com/zeitvex/RC_WheelLeg)
 
-> 山东华宇工学院 **HYNova 战队** · RC2026 仿生足式障碍赛 · **全国一等奖，第 7 名，前 5%**
+> **HYNova 战队** · RC2026 仿生足式障碍赛 · **全国一等奖，第 7 名，前 5%**
 
 **背景与问题**：这是一支从零起步的新队伍。没有历史积累、没有成熟平台，我们需要在备赛周期内自建一整套 16DOF 串联轮足机器人——机械、硬件、固件、仿真、强化学习训练与真机部署全部自研，并最终跑通比赛任务。
 
@@ -176,7 +170,43 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 <a id="project-3"></a>
 
-## 三、[8DOF 双轮腿强化学习工程](https://github.com/wusi321/8DOF-WheelLeg-RL)
+## 三、[16DOF 轮足强化学习工程（go2w 平台）](https://github.com/wusi321/16DOF-WheelLeg-RL)
+
+**背景与问题**：上一版训练工程跑在自研轮足模型上，我想验证一件事——**换一台机器人、再加一个新任务，整条训练链路还成不成立**。于是我把训练算法移植到 **Unitree go2w**（12 个腿关节 + 4 个驱动轮）模型上，并在标准三套任务之外**新写了一个比赛任务：梅花桩 `Robot-StepStone-v0`**——机器人要在交错桩列上逐桩通过，掉进 0.6 m 深坑即失败。
+
+**我做了什么**：
+
+- **算法移植**：把 `rc_mjlab` 的 PPO + 非对称 Actor-Critic（mjlab / MuJoCo-Warp / RSL-RL）迁移到 go2w 模型，机器人名称、位姿与几何常量收敛到唯一来源，并用离线脚本校验「名称是否命中 12 腿关节 / 4 轮、关节限位、站立高度、正运动学下轮子最低点是否正好落地」；
+- **梅花桩任务设计**：单桩交错地形（0.20 × 0.20 m 方桩、左右交替 ±0.20 m、8.0 × 1.6 m patch、路程 6.8 m），桩高 0.06 → 0.20 m、中心距 0.43 → 0.46 m、位置噪声 0 → ±0.03 m 随难度递增；**10 档课程**通过整段地形升级、走不到 25% 则降级，速度指令随跟踪率自适应上调（0.3 → 0.8 m/s）；
+- **奖励与约束**：前进进度（用实际位移而不是轮速，避免"空转刷奖励"）+ 速度/偏航跟踪 + 姿态与机身高度约束 + 轮滑 + 力矩/功率/动作变化率 + 机身碰撞惩罚 + 到达终点加分（按桩覆盖率打折），并按赛事规则加入**逐桩约束**（新踩上一根桩 +2、踩满整段 +20、≥2 个轮子触坑底每步 −2）；
+- **观测**：actor 326 维 = 53 维本体状态 + **273 维局部高度扫描**（21 × 13，1.6 × 1.0 m，0.08 m 分辨率）；
+- **工程化**：一键 `setup_env.sh`（并行测速 7 个 PyPI 镜像 → 写默认源 → 环境检查 → `uv sync`，缺 uv 时自动安装）；三个 CPU 可跑的冒烟脚本（模型契约校验 / 四任务 build-reset-step / 一次 PPO 迭代）；CI 拆成三个 job（静态检查、go2w 契约、训练链路冒烟）。
+
+**关键排障经验**（我认为这是这个项目最有价值的部分）：
+
+- **物理接触参数**：`ccd_iterations < 8` 时 MuJoCo-Warp **完全不生成轮-地接触**（机器人直接穿地），`≥ 8` 与 80 的结果完全一致；而 warp 的 EPA 缓冲随该值线性放大，40960 环境 × `ccd=80` 要 22.8 GB 显存直接 OOM，取 16 只要 5.3 GB；
+- **显存与地形规模**：48 GiB 卡上，8 m 梅花桩地形（391 个 geom）× 40960 环境必 OOM，降到 20480 环境可稳定训练（约 101 次迭代 / 24 h）；
+- **训练行为退化**：同一份权重从 500 迭代到 600 迭代，覆盖率涨到 0.85，却开始"趴在桩上磨时间、不再过终点"。我没有只看奖励曲线，而是把两段回放放在一起对照，把曲线、行为和对应的奖励修复一起记进 `docs/TRAINING.md`。
+
+**训练记录与回放**（仓库内文件，点击查看）：
+
+| 轮次 | 现象 | 回放 |
+|---|---|---|
+| 2026-10-27（600 迭代） | 覆盖率 0.85，但末期趴在桩上磨时间、不再过终点 | [`stepstone_demo_600.mp4`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/assets/videos/2026-10-27_07-56-35/stepstone_demo_600.mp4) |
+| 2026-10-27（500 迭代，切换前） | 正常过桩，覆盖率仍在爬升 | [`stepstone_demo_500.mp4`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/assets/videos/2026-10-27_07-56-35/stepstone_demo_500.mp4) |
+| 2026-10-26（500 迭代） | 课程全通，但靠"滞空飞过"（覆盖率 0.43） | [`stepstone_demo.mp4`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/assets/videos/2026-10-26_22-26-00/stepstone_demo.mp4) |
+
+完整的曲线分析与奖励改动见 [`docs/TRAINING.md`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/docs/TRAINING.md)，梅花桩地形 / 课程 / 奖励 / 终止条件的说明见 [`docs/STEPSTONE.md`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/docs/STEPSTONE.md)，移植与源工程的差异见 [`docs/PORTING.md`](https://github.com/wusi321/16DOF-WheelLeg-RL/blob/main/docs/PORTING.md)。
+
+**真机感知接口**：我把 Odin1（点云 / IMU / 里程计）与仿真高度扫描统一成同一套 `TerrainFrame` 契约和 **273 维局部地形观测**编码，补上 sim2real 的噪声、丢点、FOV 掩膜与延迟增强，并用 42 项单元测试 + 与训练观测逐元素比对的黄金测试（`max|diff| = 0.0`）保证"仿真里看到的"和"真机上看到的"是同一个东西。
+
+**仓库入口**：[https://github.com/wusi321/16DOF-WheelLeg-RL](https://github.com/wusi321/16DOF-WheelLeg-RL)
+
+---
+
+<a id="project-4"></a>
+
+## 四、[8DOF 双轮腿强化学习工程](https://github.com/wusi321/8DOF-WheelLeg-RL)
 
 **背景与问题**：16DOF 平台之前的 8DOF 双轮腿是同一条技术路线的起点。我需要一个**独立的训练工程**，让机械、机器人描述与训练代码边界清晰，能单独迭代而不牵动整机仓库。
 
@@ -221,9 +251,9 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ---
 
-<a id="project-4"></a>
+<a id="project-5"></a>
 
-## 四、[6DOF 双轮腿全栈开发综合考核设计](https://github.com/wusi321/WheelLeg-FullStack-Challenge)
+## 五、[6DOF 双轮腿全栈开发综合考核设计](https://github.com/wusi321/WheelLeg-FullStack-Challenge)
 
 **背景与问题**：团队需要一种方式，快速判断一名后继者是否具备**从机械到控制、从仿真到通信**的完整工程能力，而不只是"会写一段代码"。于是我设计并开源了这套考核。
 
@@ -246,9 +276,9 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ---
 
-<a id="project-5"></a>
+<a id="project-6"></a>
 
-## 五、[AUPT · 多 Linux 发行版包管理器调度工具](https://github.com/wusi321/aupt)
+## 六、[AUPT · 多 Linux 发行版包管理器调度工具](https://github.com/wusi321/aupt)
 
 **背景与问题**：不同 Linux 发行版的包管理命令彼此割裂（Ubuntu 用 `apt`、Arch 用 `pacman`、CentOS 用 `dnf`、还有 `snap` / `flatpak`），换一台机器就要重新记一套命令；镜像源配置与排障也高度重复。我希望能用**一个统一入口**把这些差异屏蔽掉。
 
@@ -268,9 +298,9 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ---
 
-<a id="project-6"></a>
+<a id="project-7"></a>
 
-## 六、[2026 年全国大学生电子设计竞赛 H 题 · 车载平衡滚球运动控制系统](https://github.com/wusi321/2026-H-TI)
+## 七、[2026 年全国大学生电子设计竞赛 H 题 · 车载平衡滚球运动控制系统](https://github.com/wusi321/2026-H-TI)
 
 **背景与问题**：题面要求在车辆行驶、循迹、停车的同时，让横梁/管道上的 **1 cm 钢珠**稳定在目标位置——这是一个**视觉测量 + 车辆运动控制 + 快速位置闭环**的耦合问题，单一 MCU 很难同时兼顾实时性与算力。
 
@@ -291,9 +321,9 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 ---
 
-<a id="project-7"></a>
+<a id="project-8"></a>
 
-## 七、[ExamGuard · 考试反作弊系统（逆向工程）](https://github.com/wusi321/ExamGuard)
+## 八、[ExamGuard · 考试反作弊系统（逆向工程）](https://github.com/wusi321/ExamGuard)
 
 **背景与问题**：这是一次以**逆向工程**为核心的实践。起点只有一份 PyInstaller 打包的 `StudentApp.exe`，我需要从中还原程序结构、理解通信协议并重建出可运行、可扩展的双端系统。
 
@@ -318,7 +348,7 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 | 方向 | 具体能力 |
 |---|---|
 | **机械与建模** | SolidWorks（整机装配、零件设计、减重与刚度权衡）、STEP/CAD 输出、URDF/Xacro 导出与坐标系核对、CNC 可制造性对接 |
-| **仿真与训练** | MuJoCo / MJCF、**mjlab**、**PPO（RSL-RL 风格）**、课程与随机化设计、Sim2Sim 策略回放、W&B 实验记录 |
+| **仿真与训练** | MuJoCo / MJCF、**MuJoCo-Warp**、**mjlab**、**PPO（RSL-RL 风格）**、课程与随机化设计、Sim2Sim 策略回放、W&B 实验记录 |
 | **控制与部署** | 强化学习策略真机部署（Sim2Real）、**ROS 2 + C++**（50 Hz 策略推理 + 200 Hz CAN 电机循环）、Nav2、TensorRT/ONNX、Jetson Orin Nano |
 | **嵌入式与电控** | STM32 / MSPM0G3507 / MaixCAM / ESP32、CAN、UART、I2C、SPI、IMU 与里程计接入、总线舵机、PID 与位置闭环 |
 | **软件工程** | Python（CLI 工具、插件化架构、打包与安装脚本）、C/C++、Linux 环境与部署、Git 分支与 PR 流程、Docker / CI |
@@ -331,7 +361,7 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 ## 关于这份作品集
 
 - **用途**：本文为**深圳科创学院极客营入营面试**整理的个人能力展示材料。
-- **贡献边界**：项目一（16DOF 轮足全开源）与项目二属于**团队开源成果**，我在其中的角色与具体职责已在对应章节明确标注；项目三至项目七为**我个人主导开发**。
+- **贡献边界**：项目一（16DOF 轮足全开源）与项目二属于**团队开源成果**，我在其中的角色与具体职责已在对应章节明确标注；项目三至项目八为**我个人主导开发**。
 - **开源与署名**：上述仓库除团队项目外均采用 MIT 协议；引用第三方依赖、模型与素材时遵循其各自许可证。
 - **可验证性**：每个仓库都提供 README、目录说明与可运行入口（安装、训练、回放、构建），论文式结论不写、可复现路径必给。
 
@@ -343,7 +373,7 @@ excerpt: 面向深圳科创学院极客营入营面试的个人作品集：16DOF
 
 - **GitHub**：[github.com/wusi321](https://github.com/wusi321)
 - **邮箱**：[19589917063@163.com](mailto:19589917063@163.com)
-- **简历**：[📄 下载 PDF 简历](/files/liucunfu-resume.pdf)
+- **简历**：如需简历，请[邮件联系本人获取](mailto:19589917063@163.com?subject=%E7%B4%A2%E5%8F%96%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86)
 - **QQ 开源交流群**：767195310（也欢迎在群里交流轮足机器人、强化学习与部署问题）
 
 以上是我在机器人方向的主要工作，欢迎通过 GitHub、邮箱或交流群与我交流，也很期待在极客营和大家一起做更硬核的东西。
